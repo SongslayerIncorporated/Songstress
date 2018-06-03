@@ -1,0 +1,14 @@
+{
+  "thesongstress:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "thesongstress:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "thesongstress:PowerChord": {
+    "NAME": "Power Chord",
+    "DESCRIPTION": "Deal !D! damage. Gain !M! Strength. NL Exhaust."
+  }
+}

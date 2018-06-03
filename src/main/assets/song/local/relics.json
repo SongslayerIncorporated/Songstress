@@ -1,0 +1,10 @@
+{
+	"thesongstress:Harpsichord": {
+		"NAME": "Harpsichord",
+		"FLAVOR": "Harpsichord Flavor text",
+		"DESCRIPTIONS": [
+		"Whenever you gain Strength or Dexterity, deal #b",
+		" damage to the enemy with the lowest HP."
+		]
+	}
+}
