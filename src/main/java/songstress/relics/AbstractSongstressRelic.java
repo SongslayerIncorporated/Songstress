@@ -1,6 +1,7 @@
 package songstress.relics;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 
 import basemod.abstracts.CustomRelic;
 import songstress.TheSongstressMod;
@@ -13,6 +14,10 @@ public abstract class AbstractSongstressRelic extends CustomRelic {
 	}
 
 	public static Texture getImg(String id) {
-		return new Texture("song/img/relics/" + id + ".png");
+		return ImageMaster.loadImage("song/img/relics/" + id + ".png");
+	}
+
+	public String getID() {
+		return relicId;
 	}
 }

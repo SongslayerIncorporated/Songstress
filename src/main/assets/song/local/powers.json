@@ -1,14 +1,15 @@
 {
-  "thesongstress:Strike": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
+  "thesongstress:Holy": {
+    "NAME": "Holy",
+    "DESCRIPTIONS": [
+      "Consumed by cards to grant additional effects."
+    ]
   },
-  "thesongstress:Defend": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
-  },
-  "thesongstress:PowerChord": {
-    "NAME": "Power Chord",
-    "DESCRIPTION": "Deal !D! damage. Gain !M! Strength. NL Exhaust."
+  "theSongstress:Prayer": {
+    "NAME": "Prayer",
+    "DESCRIPTIONS": [
+      "At the start of each turn, gain #b",
+      " #yHoly."
+    ]
   }
 }

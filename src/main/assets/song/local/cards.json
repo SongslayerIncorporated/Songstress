@@ -10,5 +10,54 @@
   "thesongstress:PowerChord": {
     "NAME": "Power Chord",
     "DESCRIPTION": "Deal !D! damage. Gain !M! Strength. NL Exhaust."
+  },
+  "thesongstress:HolyBolt": {
+    "NAME": "Holy Bolt",
+    "DESCRIPTION": "Deal !D! damage. Gain !M! Holy."
+  },
+  "thesongstress:FaithsShield": {
+    "NAME": "Faith's Shield",
+    "DESCRIPTION": "Gain !B! Block. Gain !M! Holy."
+  },
+  "thesongstress:Mend": {
+    "NAME": "Mend",
+    "DESCRIPTION": "Cure. NL Draw !M! cards. NL Exhaust."
+  },
+  "thesongstress:Shimmer": {
+    "NAME": "Shimmer",
+    "DESCRIPTION": "Apply !M! Weak. Use 1 Holy to gain !B! Block."
+  },
+  "thesongstress:Siphon": {
+    "NAME": "Siphon",
+    "DESCRIPTION": "Cure. NL Deal !D! damage."
+  },
+  "thesongstress:Expunge": {
+    "NAME": "Expunge",
+    "DESCRIPTION": "Take !D! damage. Exhaust !M! Curse or Status. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Take !D! damage. Exhaust !M! Curses or Statuses. NL Exhaust."
+  },
+  "thesongstress:Abolish": {
+    "NAME": "Abolish",
+    "DESCRIPTION": "Deal !D! damage to all enemies. Lose all Holy. Lose 3 Strength and Dexterity. NL Exhaust."
+  },
+  "thesongstress:FaithsQuestioning": {
+    "NAME": "Faith's Questioning",
+    "DESCRIPTION": "Draw !M! cards. Holy and Cure cards cost 0 for this turn. NL Exhaust."
+  },
+  "thesongstress:Exorcism": {
+    "NAME": "Exorcism",
+    "DESCRIPTION": "Apply 3 Vulnerable and Weak to all enemies. Gain !M! Holy."
+  },
+  "thesongstress:Prayer": {
+    "NAME": "Prayer",
+    "DESCRIPTION": "At the start of each turn, gain !M! Holy."
+  },
+  "thesongstress:FaithsSaber": {
+    "NAME": "Faith's Saber",
+    "DESCRIPTION": "Deal !D! damage. Use 1 Holy to attack again."
+  },
+  "thesongstress:WingBuffet": {
+    "NAME": "Wing Buffet",
+    "DESCRIPTION": "Deal !D! damage !M! times."
   }
 }

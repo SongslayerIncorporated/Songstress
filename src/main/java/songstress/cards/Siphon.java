@@ -9,22 +9,25 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class Strike extends AbstractSongstressCard {
+import songstress.actions.CureAction;
 
-	public static final String ID = "Strike";
+public class Siphon extends AbstractSongstressCard {
+
+	public static final String ID = "Siphon";
 	private static final CardStrings cardStrings = getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	private static final int COST = 1;
+	private static final int COST = 2;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-	private static final int ATTACK_DMG = 6;
+	private static final int ATTACK_DMG = 13;
 	private static final int UPGRADE_ATTACK_DMG = 3;
 	private static final CardType TYPE = CardType.ATTACK;
-	private static final CardRarity RARITY = CardRarity.BASIC;
+	private static final CardRarity RARITY = CardRarity.COMMON;
 	private static final CardTarget TARGET = CardTarget.ENEMY;
 
-	public Strike() {
+	public Siphon() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
 		this.baseDamage = ATTACK_DMG;
+		this.isCure = true;
 	}
 
 	@Override
@@ -37,14 +40,14 @@ public class Strike extends AbstractSongstressCard {
 
 	@Override
 	public AbstractCard makeCopy() {
-		return new Strike();
+		return new Siphon();
 	}
 
 	@Override
-	public void use(AbstractPlayer player, AbstractMonster monster) {
-		AbstractDungeon.actionManager
-		.addToBottom(new DamageAction(monster, new DamageInfo(player, this.damage, this.damageTypeForTurn),
-				AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+	public void use(AbstractPlayer p, AbstractMonster m) {
+		AbstractDungeon.actionManager.addToBottom(new CureAction());
+		AbstractDungeon.actionManager.addToBottom(new DamageAction(m,
+				new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
 	}
 
 }

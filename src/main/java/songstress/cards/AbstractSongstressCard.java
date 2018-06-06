@@ -9,6 +9,9 @@ import songstress.patches.ColorEnum;
 
 public abstract class AbstractSongstressCard extends CustomCard {
 
+	public boolean isHoly = false;
+	public boolean isCure = false;
+
 	public AbstractSongstressCard(String id, String name, int cost, String description, CardType type, CardRarity rarity,
 			CardTarget target) {
 		super(TheSongstressMod.withModID(id), name, getImgString(id), cost, description, type, ColorEnum.Cloud, rarity,
@@ -21,6 +24,10 @@ public abstract class AbstractSongstressCard extends CustomCard {
 
 	public static CardStrings getCardStrings(String id) {
 		return CardCrawlGame.languagePack.getCardStrings(TheSongstressMod.withModID(id));
+	}
+
+	public String getID() {
+		return cardID;
 	}
 
 }

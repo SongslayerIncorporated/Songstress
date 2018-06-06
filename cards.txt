@@ -1,0 +1,64 @@
+	-Holy Bolt: 
+	1(0) Cost Common Attack.
+	 Deals 3(4) damage. Gain 1 Holy
+	 
+	-Faith's Shield:
+	 2 Cost Common Skill.
+	 Gain 7(10) Block. Gain 1(2) Holy.
+	  
+	-Mend:
+	0 Cost Common Skill.
+	Cure. Draw 1(2) card(s).
+	Exhaust.
+	 
+	-Shimmer:
+	2(1) Cost Common Skill.
+	Apply 2 Weak to an enemy.
+	If you have at least 1 Holy,
+	gain 8(10) Block and lose 1 Holy.
+	
+	-Prayer:
+	3(2) Cost Common Power.
+	At the start of your turn,
+	gain 1 Holy.
+	
+	-Siphon: 2 Cost Common Attack
+	Deal 13(16) damage. Cure.
+	
+	Expunge 1(0) Cost Uncommon Skill,
+	 Exhaust 1 ( 2) Curse.
+	  Take 8 (6) Damage. Exhaust.
+Curse = Curses and Statuses, i keep forgetting
+	
+	-Abolish:
+	3 Cost Uncommon Attack:
+	Deal 30(40) damage. Deal 15 Damage
+	to all other enemies.
+	Lose all Holy. Lose 3 Strength.
+	Lose 3 Dexterity. Exhaust.
+	
+	-Faith's Questioning:
+	3 Cost Uncommon Skill:
+	Draw 3(5) Cards.
+	Cards with Holy or Cure
+	on them cost 0
+	for the rest of the turn.
+	exhaust.
+
+	-Exorcism: 
+	2 Cost Uncommon Skill:
+	Apply 3 Vulnerable and
+	3 Weak to all enemies.
+	 Gain 2(4) Holy.
+
+	 
+	-Faith's Saber:
+	2 Cost Uncommon Attack:
+	Deals 13(19) damage.
+	If you have at least one stack of 
+	Holy, consume 1 Holy
+	and deal 13(19) damage.
+	
+	-Wing Buffet: 2 Cost
+	 Uncommon Attack: 
+	 Deal 2(3) damage 6(7) times.

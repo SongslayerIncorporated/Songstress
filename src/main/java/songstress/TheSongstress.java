@@ -19,7 +19,7 @@ import songstress.relics.Harpsichord;
 public class TheSongstress extends CustomPlayer {
 
 	public static final String[] NAMES = { "The Songstress", "the Songstress" };
-	public static final String[] TEXT = { "Songstress Description." };
+	public static final String[] TEXT = { "An angel sent to bring joy through the tune of her songs." };
 	public static final int START_HP = 65;
 	public static final int CARD_DRAW = 5;
 	public static final int MAX_ORBS = 0;
@@ -28,10 +28,10 @@ public class TheSongstress extends CustomPlayer {
 
 	public TheSongstress(String name, AbstractPlayer.PlayerClass setClass) {
 		super(name, setClass, getOrbTextures(), "song/img/char/orb/vfx.png", (String) null, null);
-		this.initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png",
+		initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png",
 				"song/img/char/corpse.png", getLoadout(), 20.0f, -10.0f, 220.0f, 290.0f, new EnergyManager(ENERGY));
-		this.loadAnimation("song/img/char/idle/skeleton.atlas", "song/img/char/idle/skeleton.json", 1.0f);
-		AnimationState.TrackEntry e = this.state.setAnimation(0, "animation", true);
+		loadAnimation("song/img/char/idle/skeleton.atlas", "song/img/char/idle/skeleton.json", 1.0f);
+		AnimationState.TrackEntry e = state.setAnimation(0, "animation", true);
 		e.setTime(e.getEndTime() * MathUtils.random());
 	}
 
@@ -41,7 +41,7 @@ public class TheSongstress extends CustomPlayer {
 	}
 
 	public static ArrayList<String> getStartingDeck() {
-		ArrayList<String> retVal = new ArrayList<String>();
+		ArrayList<String> retVal = new ArrayList<>();
 		addCard(retVal, Strike.ID);
 		addCard(retVal, Strike.ID);
 		addCard(retVal, Strike.ID);
@@ -60,7 +60,7 @@ public class TheSongstress extends CustomPlayer {
 	}
 
 	public static ArrayList<String> getStartingRelics() {
-		ArrayList<String> retVal = new ArrayList<String>();
+		ArrayList<String> retVal = new ArrayList<>();
 		addRelicAndUnlock(retVal, Harpsichord.ID);
 		return retVal;
 	}

@@ -1,0 +1,22 @@
+{
+  "HOLY": {
+    "NAMES":[
+      "holy",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE"
+    ],
+    "DESCRIPTION": "Consumed by cards to grant additional effects."
+  },
+  "CURE": {
+    "NAMES":[
+      "cure",
+      "cures",
+      "cured",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE"
+    ],
+    "DESCRIPTION": "Use all your Holy to heal equal to the amount you lost."
+  }
+}

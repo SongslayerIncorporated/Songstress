@@ -16,8 +16,8 @@ public class PowerChord extends AbstractSongstressCard {
 	public static final String ID = "PowerChord";
 	private static final CardStrings cardStrings = getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final int COST = 2;
+	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final int ATTACK_DMG = 8;
 	private static final int UPGRADE_ATTACK_DMG = 2;
 	private static final int STRENGTH_GAIN = 1;
@@ -51,8 +51,8 @@ public class PowerChord extends AbstractSongstressCard {
 	@Override
 	public void use(AbstractPlayer player, AbstractMonster monster) {
 		AbstractDungeon.actionManager
-				.addToBottom(new DamageAction(monster, new DamageInfo(player, this.damage, this.damageTypeForTurn),
-						AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+		.addToBottom(new DamageAction(monster, new DamageInfo(player, this.damage, this.damageTypeForTurn),
+				AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
 		AbstractDungeon.actionManager.addToBottom(
 				new ApplyPowerAction(player, player, new StrengthPower(player, this.magicNumber), this.magicNumber));
 	}
