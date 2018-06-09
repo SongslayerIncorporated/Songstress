@@ -1,0 +1,32 @@
+- Angelic Chords (Starting Relic for Songstress):
+ The first Attack you play each turn with a 
+ cost of 2 or more will make a random card 
+ in your hand costs 0 until end of turn.
+
+-Harpsicord: Common Relic,
+ Current effect (Whenever you gain Strength
+ or Dexterity, deal 2 damage to the enemy
+ with the lowest health.
+ 
+ -------------------------------------
+
+-Forged Drums: Rare Relic, Whenever you 
+Smith at a Rest Site, heal 8 hp.
+
+-Harmonic Chords (Boss Relic,
+ Upgrades Songstress Starting Relic): 
+ Whenever you play an Attack that costs 
+ 2 or more, a random card in your hand 
+ costs 0 until end of turn.
+
+-Metronome(Rare) (Songstress Only): 
+At the beginning of combat, play a random card
+from any class, then Exhaust it.
+
+-Bongos!: Common Relic - 
+Every three turns, draw 2 extra cards.
+
+-Looted Lute: (Boss Relic)
+Gain (E) at the start of each turn.
+Lose 10 Hp for every energy not
+spent at the end of the turn.

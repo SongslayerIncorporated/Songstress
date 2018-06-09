@@ -1,0 +1,92 @@
+	-Holy Bolt: 
+	1(0) Cost Common Attack.
+	 Deals 3(4) damage. Gain 1 Holy
+	 
+	-Faith's Shield:
+	 2 Cost Common Skill.
+	 Gain 7(10) Block. Gain 1(2) Holy.
+	  
+	-Mend:
+	0 Cost Common Skill.
+	Cure. Draw 1(2) card(s).
+	Exhaust.
+	 
+	-Shimmer:
+	2(1) Cost Common Skill.
+	Apply 2 Weak to an enemy.
+	If you have at least 1 Holy,
+	gain 8(10) Block and lose 1 Holy.
+	
+	-Prayer:
+	3(2) Cost Common Power.
+	At the start of your turn,
+	gain 1 Holy.
+	
+	-Siphon: 2 Cost Common Attack
+	Deal 13(16) damage. Cure.
+	
+	Expunge 1(0) Cost Uncommon Skill,
+	 Exhaust 1 ( 2) Curse.
+	  Take 8 (6) Damage. Exhaust.
+Curse = Curses and Statuses, i keep forgetting
+	
+	-Abolish:
+	3 Cost Uncommon Attack:
+	Deal 30(40) damage. Deal 15 Damage
+	to all other enemies.
+	Lose all Holy. Lose 3 Strength.
+	Lose 3 Dexterity. Exhaust.
+	
+	-Faith's Questioning:
+	3 Cost Uncommon Skill:
+	Draw 3(5) Cards.
+	Cards with Holy or Cure
+	on them cost 0
+	for the rest of the turn.
+	exhaust.
+
+	-Exorcism: 
+	2 Cost Uncommon Skill:
+	Apply 3 Vulnerable and
+	3 Weak to all enemies.
+	 Gain 2(4) Holy.
+	 
+	-Faith's Saber:
+	2 Cost Uncommon Attack:
+	Deals 13(19) damage.
+	If you have at least one stack of 
+	Holy, consume 1 Holy
+	and deal 13(19) damage.
+	
+	-Wing Buffet: 2 Cost
+	 Uncommon Attack: 
+	 Deal 2(3) damage 6(7) times.
+	 
+	 ------------------------------
+	 
+	 On Mercy's Wings: 1 Cost Uncommon Skill:
+	 Gain 1(2) Holy. Take half damage until 
+	 the start of your next turn.
+
+	 Guidance: X Cost Uncommon Skill: On your
+     next turn, Gain X(X+1) Holy and draw 2(3)
+     extra cards.
+ 	
+	 Blessed Fury: 2(1) Cost Rare Attack:
+	 Deal 5 damage 5 times. Until end of turn, 
+	 whenever you play a card, play it twice. Exhaust.
+	 
+	Angelic Descent: X Cost Rare Attack.
+	Deal damage equal to your current Holy X(X+1)
+	times. Exhaust.
+
+	Purge: 3(2) Cost Rare Skill: Exhaust all Curses
+	and Statuses. For each card Exhausted, gain 1 Strength.
+
+	Angelic Luck: 4(3) Cost Rare Skill: Play 3(5)
+	random cards from your draw pile, then exhaust
+	those cards. Exhaust.
+
+	Revival: 2 Cost Rare Skill:
+	Return up to 2(3) cards from Exhaust. 
+	 

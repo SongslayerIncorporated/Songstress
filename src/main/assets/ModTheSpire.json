@@ -1,0 +1,9 @@
+{
+  "modid": "thesongstress",
+  "name": "The Songstress",
+  "author_list": ["LuciusMaveric" , "Skrelpoid" ],
+  "description": "Adds a new character, The Songstress",
+  "version": "0.2.1",
+  "sts_version": "06-07-2018",
+  "mts_version": "2.6.0"
+}
