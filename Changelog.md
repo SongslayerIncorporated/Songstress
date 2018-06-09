@@ -8,6 +8,15 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [pre-0.2.1] - 2018-06-09
+
+### Added
+ - Starting Relic Angelic Chords: Each turn, the first time you play an Attack that costs 2 or more, a random card in your hand costs 0 for the turn.
+
+### Changed
+ - Abolish -> Deal 30(40) damage. Deal 15 damage to all enemies. Lose all Holy. Lose 3 Strength and Dexterity. Exhaust.
+ - Harpsichord: Starter -> Common.
+
 ## [pre-0.2.0] - 2018-06-06
 ### Added
 - Powers:

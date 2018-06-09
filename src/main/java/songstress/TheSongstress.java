@@ -14,7 +14,7 @@ import songstress.cards.Defend;
 import songstress.cards.PowerChord;
 import songstress.cards.Strike;
 import songstress.patches.PlayerClassEnum;
-import songstress.relics.Harpsichord;
+import songstress.relics.AngelicChords;
 
 public class TheSongstress extends CustomPlayer {
 
@@ -28,8 +28,8 @@ public class TheSongstress extends CustomPlayer {
 
 	public TheSongstress(String name, AbstractPlayer.PlayerClass setClass) {
 		super(name, setClass, getOrbTextures(), "song/img/char/orb/vfx.png", (String) null, null);
-		initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png",
-				"song/img/char/corpse.png", getLoadout(), 20.0f, -10.0f, 220.0f, 290.0f, new EnergyManager(ENERGY));
+		initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png", "song/img/char/corpse.png",
+				getLoadout(), 20.0f, -10.0f, 220.0f, 290.0f, new EnergyManager(ENERGY));
 		loadAnimation("song/img/char/idle/skeleton.atlas", "song/img/char/idle/skeleton.json", 1.0f);
 		AnimationState.TrackEntry e = state.setAnimation(0, "animation", true);
 		e.setTime(e.getEndTime() * MathUtils.random());
@@ -61,7 +61,7 @@ public class TheSongstress extends CustomPlayer {
 
 	public static ArrayList<String> getStartingRelics() {
 		ArrayList<String> retVal = new ArrayList<>();
-		addRelicAndUnlock(retVal, Harpsichord.ID);
+		addRelicAndUnlock(retVal, AngelicChords.ID);
 		return retVal;
 	}
 

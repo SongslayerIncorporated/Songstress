@@ -1,15 +1,15 @@
 {
-  "thesongstress:Holy": {
-    "NAME": "Holy",
-    "DESCRIPTIONS": [
-      "Consumed by cards to grant additional effects."
-    ]
-  },
   "theSongstress:Prayer": {
     "NAME": "Prayer",
     "DESCRIPTIONS": [
       "At the start of each turn, gain #b",
       " #yHoly."
+    ]
+  },
+  "thesongstress:Holy": {
+    "NAME": "Holy",
+    "DESCRIPTIONS": [
+      "Consumed by cards to grant additional effects."
     ]
   }
 }

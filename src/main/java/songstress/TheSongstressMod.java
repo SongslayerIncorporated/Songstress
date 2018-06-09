@@ -20,6 +20,7 @@ import com.megacrit.cardcrawl.localization.RelicStrings;
 
 import basemod.BaseMod;
 import basemod.ModPanel;
+import basemod.helpers.RelicType;
 import basemod.interfaces.EditCardsSubscriber;
 import basemod.interfaces.EditCharactersSubscriber;
 import basemod.interfaces.EditKeywordsSubscriber;
@@ -43,11 +44,12 @@ import songstress.cards.Strike;
 import songstress.cards.WingBuffet;
 import songstress.patches.ColorEnum;
 import songstress.patches.PlayerClassEnum;
+import songstress.relics.AngelicChords;
 import songstress.relics.Harpsichord;
 
 @SpireInitializer
 public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersSubscriber, EditCardsSubscriber,
-PostInitializeSubscriber, EditStringsSubscriber, EditRelicsSubscriber {
+		PostInitializeSubscriber, EditStringsSubscriber, EditRelicsSubscriber {
 	public static final Logger logger = LogManager.getLogger(TheSongstressMod.class.getName());
 	public static final String MOD_ID = "thesongstress";
 	public static final String MOD_NAME = "The Songstress";
@@ -116,7 +118,18 @@ PostInitializeSubscriber, EditStringsSubscriber, EditRelicsSubscriber {
 	public void receiveEditRelics() {
 		logger.info("Adding relics for the Songstress");
 
-		BaseMod.addRelicToCustomPool(new Harpsichord(), ColorEnum.Cloud.toString());
+		// STARTER
+		BaseMod.addRelicToCustomPool(new AngelicChords(), ColorEnum.Cloud.toString());
+
+		// COMMON
+		BaseMod.addRelic(new Harpsichord(), RelicType.SHARED);
+
+		// UNCOMMON
+
+		// RARE
+
+		// SPECIAL
+
 	}
 
 	@Override

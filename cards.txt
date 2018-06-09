@@ -50,7 +50,6 @@ Curse = Curses and Statuses, i keep forgetting
 	Apply 3 Vulnerable and
 	3 Weak to all enemies.
 	 Gain 2(4) Holy.
-
 	 
 	-Faith's Saber:
 	2 Cost Uncommon Attack:
@@ -62,3 +61,32 @@ Curse = Curses and Statuses, i keep forgetting
 	-Wing Buffet: 2 Cost
 	 Uncommon Attack: 
 	 Deal 2(3) damage 6(7) times.
+	 
+	 ------------------------------
+	 
+	 On Mercy's Wings: 1 Cost Uncommon Skill:
+	 Gain 1(2) Holy. Take half damage until 
+	 the start of your next turn.
+
+	 Guidance: X Cost Uncommon Skill: On your
+     next turn, Gain X(X+1) Holy and draw 2(3)
+     extra cards.
+ 	
+	 Blessed Fury: 2(1) Cost Rare Attack:
+	 Deal 5 damage 5 times. Until end of turn, 
+	 whenever you play a card, play it twice. Exhaust.
+	 
+	Angelic Descent: X Cost Rare Attack.
+	Deal damage equal to your current Holy X(X+1)
+	times. Exhaust.
+
+	Purge: 3(2) Cost Rare Skill: Exhaust all Curses
+	and Statuses. For each card Exhausted, gain 1 Strength.
+
+	Angelic Luck: 4(3) Cost Rare Skill: Play 3(5)
+	random cards from your draw pile, then exhaust
+	those cards. Exhaust.
+
+	Revival: 2 Cost Rare Skill:
+	Return up to 2(3) cards from Exhaust. 
+	 

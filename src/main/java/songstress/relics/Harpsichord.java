@@ -11,7 +11,7 @@ public class Harpsichord extends AbstractSongstressRelic {
 
 	public static final String ID = "Harpsichord";
 	public static final int DAMAGE = 2;
-	public static final RelicTier TIER = RelicTier.STARTER;
+	public static final RelicTier TIER = RelicTier.COMMON;
 	public static final LandingSound SOUND = LandingSound.MAGICAL;
 
 	public Harpsichord() {

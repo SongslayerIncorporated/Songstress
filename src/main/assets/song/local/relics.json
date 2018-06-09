@@ -1,10 +1,18 @@
 {
-	"thesongstress:Harpsichord": {
-		"NAME": "Harpsichord",
-		"FLAVOR": "Harpsichord Flavor text",
-		"DESCRIPTIONS": [
-		"Whenever you gain Strength or Dexterity, deal #b",
-		" damage to the enemy with the lowest HP."
-		]
-	}
+  "thesongstress:AngelicChords": {
+    "NAME": "Angelic Chords",
+    "FLAVOR": "Angelic Chords Flavor text",
+    "DESCRIPTIONS": [
+      "Each turn, the first time you play an #yAttack that costs #b",
+      " or more, a random card in your hand costs #b0 for the turn."
+    ]
+  },
+  "thesongstress:Harpsichord": {
+    "NAME": "Harpsichord",
+    "FLAVOR": "Harpsichord Flavor text",
+    "DESCRIPTIONS": [
+      "Whenever you gain Strength or Dexterity, deal #b",
+      " damage to the enemy with the lowest HP."
+    ]
+  }
 }
