@@ -8,6 +8,13 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [pre-0.2.2] - 2018-06-11
+### Added
+ - Rare Relic Forged Drums: Whenever you smith at a rest site, heal 8 HP
+ - Boss Relic Harmonic Chords: Whenever you play an Attack that costs 2 or more, a random card in your hand costs 0 for the turn.
+ - Common Relic Bongos!: Every three turns, draw 2 additional cards.
+
+
 ## [pre-0.2.1] - 2018-06-09
 
 ### Added

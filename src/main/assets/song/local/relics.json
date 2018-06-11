@@ -7,12 +7,43 @@
       " or more, a random card in your hand costs #b0 for the turn."
     ]
   },
+  "thesongstress:Bongos": {
+    "NAME": "Bongos!",
+    "FLAVOR": "Bongos! Flavor text",
+    "DESCRIPTIONS": [
+      "Every #bthree turns, draw #b", 
+      " additional cards."
+    ]
+  },
+  "thesongstress:ForgedDrums": {
+    "NAME": "Forged Drums",
+    "FLAVOR": "Forged Drums Flavor text",
+    "DESCRIPTIONS": [
+      "Whenever you smith at a rest site, heal #b",
+      " HP."
+    ]
+  },
   "thesongstress:Harpsichord": {
     "NAME": "Harpsichord",
     "FLAVOR": "Harpsichord Flavor text",
     "DESCRIPTIONS": [
       "Whenever you gain Strength or Dexterity, deal #b",
       " damage to the enemy with the lowest HP."
+    ]
+  },
+  "thesongstress:HarmonicChords": {
+    "NAME": "Harmonic Chords",
+    "FLAVOR": "Harmonic Chords Flavor text",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack that costs #b",
+      " or more, a random card in your hand costs #b0 for the turn."
+    ]
+  },
+  "thesongstress:Metronome": {
+    "NAME": "Metronome",
+    "FLAVOR": "Metronome Flavor text",
+    "DESCRIPTIONS": [
+      "NOT IMPLEMENTED YET! At the beginning of combat, play a random card from any class, then #yExhaust it."
     ]
   }
 }

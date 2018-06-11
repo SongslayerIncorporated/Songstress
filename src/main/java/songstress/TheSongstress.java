@@ -18,8 +18,8 @@ import songstress.relics.AngelicChords;
 
 public class TheSongstress extends CustomPlayer {
 
-	public static final String[] NAMES = { "The Songstress", "the Songstress" };
-	public static final String[] TEXT = { "An angel sent to bring joy through the tune of her songs." };
+	public static final String[] NAMES = { "The Songstress" };
+	public static final String[] TEXT1 = { "An angel sent to bring joy through the tune of her songs." };
 	public static final int START_HP = 65;
 	public static final int CARD_DRAW = 5;
 	public static final int MAX_ORBS = 0;
@@ -36,7 +36,7 @@ public class TheSongstress extends CustomPlayer {
 	}
 
 	public static CharSelectInfo getLoadout() {
-		return new CharSelectInfo(NAMES[0], TEXT[0], START_HP, START_HP, MAX_ORBS, START_GOLD, CARD_DRAW,
+		return new CharSelectInfo(NAMES[0], TEXT1[0], START_HP, START_HP, MAX_ORBS, START_GOLD, CARD_DRAW,
 				PlayerClassEnum.TheSongstress, getStartingRelics(), getStartingDeck(), false);
 	}
 

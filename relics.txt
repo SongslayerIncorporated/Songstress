@@ -7,8 +7,6 @@
  Current effect (Whenever you gain Strength
  or Dexterity, deal 2 damage to the enemy
  with the lowest health.
- 
- -------------------------------------
 
 -Forged Drums: Rare Relic, Whenever you 
 Smith at a Rest Site, heal 8 hp.
@@ -19,12 +17,14 @@ Smith at a Rest Site, heal 8 hp.
  2 or more, a random card in your hand 
  costs 0 until end of turn.
 
+-Bongos!: Common Relic - 
+Every three turns, draw 2 extra cards.
+ 
+ -------------------------------------
+
 -Metronome(Rare) (Songstress Only): 
 At the beginning of combat, play a random card
 from any class, then Exhaust it.
-
--Bongos!: Common Relic - 
-Every three turns, draw 2 extra cards.
 
 -Looted Lute: (Boss Relic)
 Gain (E) at the start of each turn.

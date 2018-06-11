@@ -45,7 +45,11 @@ import songstress.cards.WingBuffet;
 import songstress.patches.ColorEnum;
 import songstress.patches.PlayerClassEnum;
 import songstress.relics.AngelicChords;
+import songstress.relics.Bongos;
+import songstress.relics.ForgedDrums;
+import songstress.relics.HarmonicChords;
 import songstress.relics.Harpsichord;
+import songstress.relics.Metronome;
 
 @SpireInitializer
 public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersSubscriber, EditCardsSubscriber,
@@ -78,7 +82,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		String button = "song/img/char/button.png";
 		String portrait = "song/img/char/portrait.jpg";
 
-		BaseMod.addCharacter(TheSongstress.class, TheSongstress.NAMES[1], TheSongstress.NAMES[1],
+		BaseMod.addCharacter(TheSongstress.class, TheSongstress.NAMES[0], TheSongstress.NAMES[0],
 				ColorEnum.Cloud.toString(), TheSongstress.NAMES[0], button, portrait,
 				PlayerClassEnum.TheSongstress.toString());
 	}
@@ -123,10 +127,16 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 
 		// COMMON
 		BaseMod.addRelic(new Harpsichord(), RelicType.SHARED);
+		BaseMod.addRelic(new Bongos(), RelicType.SHARED);
 
 		// UNCOMMON
 
 		// RARE
+		BaseMod.addRelic(new ForgedDrums(), RelicType.SHARED);
+		BaseMod.addRelicToCustomPool(new Metronome(), ColorEnum.Cloud.toString());
+
+		// BOSS
+		BaseMod.addRelicToCustomPool(new HarmonicChords(), ColorEnum.Cloud.toString());
 
 		// SPECIAL
 
@@ -153,8 +163,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		// Note: KeywordStrings is a horrible hardcoded class, we can't use it
 		// use a custom class instead
 		// Copied from MadScienceMod
-		Type typeToken = new TypeToken<Map<String, Keyword>>() {
-		}.getType();
+		Type typeToken = new TypeToken<Map<String, Keyword>>() {}.getType();
 		Gson gson = new Gson();
 		String strings = loadJson("song/local/keywords.json");
 		@SuppressWarnings("unchecked")
