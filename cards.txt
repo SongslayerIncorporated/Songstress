@@ -72,9 +72,9 @@ Curse = Curses and Statuses, i keep forgetting
      next turn, Gain X(X+1) Holy and draw 2(3)
      extra cards.
  	
-	 Blessed Fury: 2(1) Cost Rare Attack:
-	 Deal 5 damage 5 times. Until end of turn, 
-	 whenever you play a card, play it twice. Exhaust.
+	 Blessed Fury: 2(1) Cost Rare Skill:
+	 Until end of turn, whenever you 
+	 play a card, play it twice. Exhaust.
 	 
 	Angelic Descent: X Cost Rare Attack.
 	Deal damage equal to your current Holy X(X+1)
