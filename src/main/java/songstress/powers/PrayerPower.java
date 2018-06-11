@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class PrayerPower extends AbstractSongstressPower {
 
+	// TODO Debug this and see why Prayer is not in PowerStrings
 	public static final String POWER_ID = "Prayer";
 	// private static final PowerStrings powerStrings = getPowerStrings(POWER_ID);
 	// public static final String NAME = powerStrings.NAME;
