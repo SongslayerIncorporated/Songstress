@@ -49,6 +49,7 @@ import songstress.relics.Bongos;
 import songstress.relics.ForgedDrums;
 import songstress.relics.HarmonicChords;
 import songstress.relics.Harpsichord;
+import songstress.relics.LootedLute;
 import songstress.relics.Metronome;
 
 @SpireInitializer
@@ -137,6 +138,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 
 		// BOSS
 		BaseMod.addRelicToCustomPool(new HarmonicChords(), ColorEnum.Cloud.toString());
+		BaseMod.addRelic(new LootedLute(), RelicType.SHARED);
 
 		// SPECIAL
 
