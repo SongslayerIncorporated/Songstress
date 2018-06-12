@@ -8,6 +8,11 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [pre-0.2.3] - 2018-06-12
+### Added
+ - Rare Relic Metronome: At the beginning of combat, play a random card from any class, then Exhaust it.
+ - Boss Relic Looted Lute: Gain energy at the start of each turn. Lose 10 HP for every energy not spent at the end of the turn.
+
 ## [pre-0.2.2] - 2018-06-11
 ### Added
  - Rare Relic Forged Drums: Whenever you smith at a rest site, heal 8 HP

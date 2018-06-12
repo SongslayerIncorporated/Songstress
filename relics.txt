@@ -19,8 +19,6 @@ Smith at a Rest Site, heal 8 hp.
 
 -Bongos!: Common Relic - 
 Every three turns, draw 2 extra cards.
- 
- -------------------------------------
 
 -Metronome(Rare) (Songstress Only): 
 At the beginning of combat, play a random card
@@ -30,3 +28,5 @@ from any class, then Exhaust it.
 Gain (E) at the start of each turn.
 Lose 10 Hp for every energy not
 spent at the end of the turn.
+ 
+ -------------------------------------

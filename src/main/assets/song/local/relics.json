@@ -43,7 +43,15 @@
     "NAME": "Metronome",
     "FLAVOR": "Metronome Flavor text",
     "DESCRIPTIONS": [
-      "NOT IMPLEMENTED YET! At the beginning of combat, play a random card from any class, then #yExhaust it."
+      "At the beginning of combat, play a random card from any class, then #yExhaust it."
+    ]
+  },
+  "thesongstress:LootedLute": {
+    "NAME": "Looted Lute",
+    "FLAVOR": "Looted Lute Flavor text",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of each turn. Lose #b",
+      " HP for every energy not spent at the end of the turn."
     ]
   }
 }

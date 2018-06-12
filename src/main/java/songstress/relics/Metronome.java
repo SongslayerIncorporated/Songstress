@@ -1,6 +1,13 @@
 package songstress.relics;
 
+import com.megacrit.cardcrawl.actions.utility.QueueCardAction;
+import com.megacrit.cardcrawl.actions.utility.UnlimboAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+
+import songstress.CardHelper;
 
 public class Metronome extends AbstractSongstressRelic {
 
@@ -12,9 +19,17 @@ public class Metronome extends AbstractSongstressRelic {
 		super(ID, TIER, SOUND);
 	}
 
+	// Copied from Havoc and Necronomicon
 	@Override
 	public void atBattleStart() {
-		// TODO Do something here
+		AbstractCard card = CardHelper.getNonCloudCard();
+		UnlockTracker.markCardAsSeen(card.cardID);
+		card = card.makeStatEquivalentCopy();
+		card.freeToPlayOnce = true;
+		card.applyPowers();
+		card.purgeOnUse = true;
+		AbstractDungeon.actionManager.addToTop(new QueueCardAction(card, AbstractDungeon.getRandomMonster()));
+		AbstractDungeon.actionManager.addToTop(new UnlimboAction(card));
 	}
 
 	@Override
