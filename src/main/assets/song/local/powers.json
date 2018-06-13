@@ -1,5 +1,12 @@
 {
-  "theSongstress:Prayer": {
+  "thesongstress:NextTurnHoly": {
+    "NAME": "Next Turn Holy",
+    "DESCRIPTIONS": [
+      "At the start of your next turn, gain #b",
+      " #yHoly."
+    ]
+  },
+  "thesongstress:Prayer": {
     "NAME": "Prayer",
     "DESCRIPTIONS": [
       "At the start of each turn, gain #b",
@@ -10,6 +17,14 @@
     "NAME": "Holy",
     "DESCRIPTIONS": [
       "Consumed by cards to grant additional effects."
+    ]
+  },
+  "thesongstress:MercysWings": {
+    "NAME": "Mercy's Wings",
+    "DESCRIPTIONS": [
+      "Take half damage until the start of your next turn.",
+      "Take half damage for the next #b",
+      " turns."
     ]
   }
 }

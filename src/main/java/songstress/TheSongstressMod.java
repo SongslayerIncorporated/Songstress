@@ -34,8 +34,10 @@ import songstress.cards.Expunge;
 import songstress.cards.FaithsQuestioning;
 import songstress.cards.FaithsSaber;
 import songstress.cards.FaithsShield;
+import songstress.cards.Guidance;
 import songstress.cards.HolyBolt;
 import songstress.cards.Mend;
+import songstress.cards.OnMercysWings;
 import songstress.cards.PowerChord;
 import songstress.cards.Prayer;
 import songstress.cards.Shimmer;
@@ -113,6 +115,8 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Exorcism());
 		BaseMod.addCard(new FaithsSaber());
 		BaseMod.addCard(new WingBuffet());
+		BaseMod.addCard(new OnMercysWings());
+		BaseMod.addCard(new Guidance());
 
 		// RARE
 
