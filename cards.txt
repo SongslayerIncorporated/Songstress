@@ -62,8 +62,6 @@ Curse = Curses and Statuses, i keep forgetting
 	 Uncommon Attack: 
 	 Deal 2(3) damage 6(7) times.
 	 
-	 ------------------------------
-	 
 	 On Mercy's Wings: 1 Cost Uncommon Skill:
 	 Gain 1(2) Holy. Take half damage until 
 	 the start of your next turn.
@@ -71,6 +69,8 @@ Curse = Curses and Statuses, i keep forgetting
 	 Guidance: X Cost Uncommon Skill: On your
      next turn, Gain X(X+1) Holy and draw 2(3)
      extra cards.
+	 
+	 ------------------------------
  	
 	 Blessed Fury: 2(1) Cost Rare Skill:
 	 Until end of turn, whenever you 

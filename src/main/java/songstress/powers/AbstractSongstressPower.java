@@ -23,7 +23,7 @@ public class AbstractSongstressPower extends AbstractPower {
 		this.amount = amount;
 	}
 
-	private Texture getImg(String id) {
+	private static Texture getImg(String id) {
 		return ImageMaster.loadImage("song/img/powers/32/" + id + ".png");
 	}
 

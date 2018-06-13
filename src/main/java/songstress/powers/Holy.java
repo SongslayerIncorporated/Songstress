@@ -1,7 +1,6 @@
 package songstress.powers;
 
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 
@@ -24,25 +23,6 @@ public class Holy extends AbstractSongstressPower {
 	@Override
 	public void updateDescription() {
 		description = DESCRIPTIONS[0];
-	}
-
-	// buggy i think
-	@Override
-	public void reducePower(int reduceAmount) {
-		stackPower(reduceAmount);
-	}
-
-	@Override
-	public void stackPower(int stackAmount) {
-		fontScale = 8.0f;
-		amount += stackAmount;
-		if (amount >= 999) {
-			amount = 999;
-		}
-		if (amount <= 0) {
-			AbstractDungeon.actionManager.addToTop(
-					new RemoveSpecificPowerAction(owner, owner, TheSongstressMod.withModID(POWER_ID)));
-		}
 	}
 
 	public static int holyAmount() {

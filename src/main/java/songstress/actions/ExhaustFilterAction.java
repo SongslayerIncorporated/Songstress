@@ -13,7 +13,6 @@ import com.megacrit.cardcrawl.screens.select.HandCardSelectScreen;
 import songstress.utils.CardFilter;
 
 /**
- *
  * An ExhaustAction that has a CardFilter so only specific cards can be
  * exhausted (mostly copied from ExhaustAction)
  */
@@ -21,7 +20,6 @@ public class ExhaustFilterAction extends ExhaustAction {
 
 	private CardFilter filter;
 	private AbstractPlayer p;
-	private int amount;
 	private boolean isRandom;
 	private boolean anyNumber;
 	private boolean canPickZero;
@@ -53,8 +51,7 @@ public class ExhaustFilterAction extends ExhaustAction {
 	// Copied from ArmamentsAction and ExhaustAction
 	@Override
 	public void update() {
-		if (duration == com.megacrit.cardcrawl.core.Settings.ACTION_DUR_FAST)
-		{
+		if (duration == com.megacrit.cardcrawl.core.Settings.ACTION_DUR_FAST) {
 			filterCards();
 			if (p.hand.size() == 0 || removedCards.size() == p.hand.size()) {
 				isDone = true;
@@ -62,8 +59,7 @@ public class ExhaustFilterAction extends ExhaustAction {
 				return;
 			}
 
-			if ((!anyNumber) &&
-					(p.hand.size() <= amount)) {
+			if ((!anyNumber) && (p.hand.size() <= amount)) {
 				amount = p.hand.size();
 				numExhausted = amount;
 				int tmp = p.hand.size();
@@ -75,7 +71,6 @@ public class ExhaustFilterAction extends ExhaustAction {
 				returnCards();
 				return;
 			}
-
 
 			if (isRandom) {
 				for (int i = 0; i < amount; i++) {
@@ -91,7 +86,6 @@ public class ExhaustFilterAction extends ExhaustAction {
 			}
 		}
 		HandCardSelectScreen handCardSelectScreen = AbstractDungeon.handCardSelectScreen;
-
 
 		if (!handCardSelectScreen.wereCardsRetrieved) {
 			for (AbstractCard c : handCardSelectScreen.selectedCards.group) {

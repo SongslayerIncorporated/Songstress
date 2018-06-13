@@ -8,6 +8,14 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [pre-0.2.4] - 2018-06-13
+### Added
+ - Uncommon Card On Mercy's Wings: Gain 1(2) Holy. Take half damage until the start of your next turn.
+ - Uncommon Card Guidance: On your next turn, gain X(X+1) Holy and draw 2(3) cards.
+ 
+ ### Fixed
+  - Prayer ID is now spelled the right way in powers.json
+
 ## [pre-0.2.3] - 2018-06-12
 ### Added
  - Rare Relic Metronome: At the beginning of combat, play a random card from any class, then Exhaust it.
@@ -21,7 +29,6 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 
 ## [pre-0.2.1] - 2018-06-09
-
 ### Added
  - Starting Relic Angelic Chords: Each turn, the first time you play an Attack that costs 2 or more, a random card in your hand costs 0 for the turn.
 

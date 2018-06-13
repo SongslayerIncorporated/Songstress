@@ -59,5 +59,14 @@
   "thesongstress:WingBuffet": {
     "NAME": "Wing Buffet",
     "DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "thesongstress:OnMercysWings": {
+    "NAME": "On Mercy's Wings",
+    "DESCRIPTION": "Gain !M! Holy. Take half damage until the start of your next turn."
+  },
+  "thesongstress:Guidance": {
+    "NAME": "Guidance",
+    "DESCRIPTION": "On your next turn, gain X Holy and draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "On your next turn, gain X+1 Holy and draw !M! cards."
   }
 }
