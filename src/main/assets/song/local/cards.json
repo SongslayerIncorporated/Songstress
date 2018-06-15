@@ -13,8 +13,7 @@
   },
   "thesongstress:Expunge": {
     "NAME": "Expunge",
-    "DESCRIPTION": "Take !D! damage. Exhaust !M! Curse or Status. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Take !D! damage. Exhaust !M! Curses or Statuses. NL Exhaust."
+    "DESCRIPTION": "Exhaust up to 2 cards. Take !D! damage and gain !M! Holy for each card exhausted this way. NL Exhaust."
   },
   "thesongstress:FaithsQuestioning": {
     "NAME": "Faith's Questioning",
@@ -68,5 +67,14 @@
     "NAME": "Guidance",
     "DESCRIPTION": "On your next turn, gain X Holy and draw !M! cards.",
     "UPGRADE_DESCRIPTION": "On your next turn, gain X+1 Holy and draw !M! cards."
+  },
+  "thesongstress:BlessedFury": {
+    "NAME": "Blessed Fury",
+    "DESCRIPTION": "Costs !M! Holy. Until the end of turn, whenever you play a card, play it twice. NL Exhaust."
+  },
+  "thesongstress:AngelicDescent": {
+    "NAME": "Angelic Descent",
+    "DESCRIPTION": "Deal damage equal to your current Holy to all enemies X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to your current Holy to all enemies X+1 times. NL Exhaust."
   }
 }

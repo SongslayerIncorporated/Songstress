@@ -11,9 +11,6 @@ public class Holy extends AbstractSongstressPower {
 	private static final PowerStrings powerStrings = getPowerStrings(POWER_ID);
 	public static final String NAME = powerStrings.NAME;
 	public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-	// public static final String NAME = "Holy";
-	// public static final String[] DESCRIPTIONS = { "Consumed by cards to grant
-	// additional effects." };
 
 	public Holy(int amount) {
 		super(POWER_ID, NAME, AbstractDungeon.player, amount);
