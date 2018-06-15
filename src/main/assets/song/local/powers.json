@@ -26,5 +26,13 @@
       "Take half damage for the next #b",
       " turns."
     ]
+  },
+  "thesongstress:BlessedFury": {
+    "NAME": "Blessed Fury",
+    "DESCRIPTIONS": [
+      "Until the end of turn, whenever you play a card, play it twice.",
+      "For the next #b",
+      " turns, whenever you play a card, play it twice."
+    ]
   }
 }

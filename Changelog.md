@@ -8,6 +8,16 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [pre-0.2.5] - 2018-06-15
+### Added
+ - Rare Card Blessed Fury: Costs 2(1) Holy. Until the end of turn, whenever you play a card, play it twice. Exhaust.
+ - Rare Card Angelic Descent: Deal damage equal to your current Holy to all enemies X(X+1) times. Exhaust.
+ - Automatic update using ModTheSpire
+ 
+ ### Changed
+ - Expunge -> Rare Card. 1(0) Cost. Exhaust up to 2 cards. Take 3(2) damage for each card exhausted this way. Exhaust.
+ - Faith's Questioning -> Rare
+
 ## [pre-0.2.4] - 2018-06-13
 ### Added
  - Uncommon Card On Mercy's Wings: Gain 1(2) Holy. Take half damage until the start of your next turn.

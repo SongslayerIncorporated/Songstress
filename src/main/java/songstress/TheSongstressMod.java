@@ -28,6 +28,8 @@ import basemod.interfaces.EditRelicsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostInitializeSubscriber;
 import songstress.cards.Abolish;
+import songstress.cards.AngelicDescent;
+import songstress.cards.BlessedFury;
 import songstress.cards.Defend;
 import songstress.cards.Exorcism;
 import songstress.cards.Expunge;
@@ -106,12 +108,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Shimmer());
 		BaseMod.addCard(new Prayer());
 		BaseMod.addCard(new Siphon());
-		BaseMod.addCard(new Expunge());
 
 		// UNCOMMON
 
 		BaseMod.addCard(new Abolish());
-		BaseMod.addCard(new FaithsQuestioning());
 		BaseMod.addCard(new Exorcism());
 		BaseMod.addCard(new FaithsSaber());
 		BaseMod.addCard(new WingBuffet());
@@ -119,6 +119,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Guidance());
 
 		// RARE
+		BaseMod.addCard(new BlessedFury());
+		BaseMod.addCard(new AngelicDescent());
+		BaseMod.addCard(new Expunge());
+		BaseMod.addCard(new FaithsQuestioning());
 
 		// SPECIAL
 	}
