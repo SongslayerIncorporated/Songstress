@@ -29,6 +29,7 @@ import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostInitializeSubscriber;
 import songstress.cards.Abolish;
 import songstress.cards.AngelicDescent;
+import songstress.cards.AngelicLuck;
 import songstress.cards.BlessedFury;
 import songstress.cards.Defend;
 import songstress.cards.Exorcism;
@@ -42,6 +43,8 @@ import songstress.cards.Mend;
 import songstress.cards.OnMercysWings;
 import songstress.cards.PowerChord;
 import songstress.cards.Prayer;
+import songstress.cards.Purge;
+import songstress.cards.Revival;
 import songstress.cards.Shimmer;
 import songstress.cards.Siphon;
 import songstress.cards.Strike;
@@ -73,10 +76,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		logger.info("Registering Color Cloud");
 		Color color = Color.LIGHT_GRAY.cpy();
 		BaseMod.addColor(ColorEnum.Cloud.toString(), color, color, color, color, color, color, color,
-				"song/img/cards/512/bg_attack_cloud.png", "song/img/cards/512/bg_skill_cloud.png",
-				"song/img/cards/512/bg_power_cloud.png", "song/img/cards/512/card_cloud_orb.png",
-				"song/img/cards/1024/bg_attack_cloud.png", "song/img/cards/1024/bg_skill_cloud.png",
-				"song/img/cards/1024/bg_power_cloud.png", "song/img/cards/1024/card_cloud_orb.png");
+				"song/img/cards/512/bg_attack_cloud3.png", "song/img/cards/512/bg_skill_cloud2.png",
+				"song/img/cards/512/bg_power_cloud2.png", "song/img/cards/512/card_cloud_orb.png",
+				"song/img/cards/1024/bg_attack_cloud3.png", "song/img/cards/1024/bg_skill_cloud2.png",
+				"song/img/cards/1024/bg_power_cloud2.png", "song/img/cards/1024/card_cloud_orb.png");
 		BaseMod.subscribe(new TheSongstressMod());
 		BaseMod.subscribe(new HarpsichordHelper());
 	}
@@ -123,6 +126,9 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new AngelicDescent());
 		BaseMod.addCard(new Expunge());
 		BaseMod.addCard(new FaithsQuestioning());
+		BaseMod.addCard(new Purge());
+		BaseMod.addCard(new AngelicLuck());
+		BaseMod.addCard(new Revival());
 
 		// SPECIAL
 	}

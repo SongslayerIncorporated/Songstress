@@ -76,5 +76,17 @@
     "NAME": "Angelic Descent",
     "DESCRIPTION": "Deal damage equal to your current Holy to all enemies X times. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal damage equal to your current Holy to all enemies X+1 times. NL Exhaust."
+  },
+  "thesongstress:Purge": {
+    "NAME": "Purge",
+    "DESCRIPTION": "Exhaust ALL Curses and Statuses. Gain !M! Strength for each card exhausted. NL Exhaust."
+  },
+  "thesongstress:AngelicLuck": {
+    "NAME": "Angelic Luck",
+    "DESCRIPTION": "Play and exhaust !M! random cards from your draw pile. NL Exhaust."
+  },
+  "thesongstress:Revival": {
+    "NAME": "Revival",
+    "DESCRIPTION": "Return up to !M! cards from Exhaust."
   }
 }

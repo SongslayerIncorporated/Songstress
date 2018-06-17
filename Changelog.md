@@ -8,6 +8,12 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.3.0] - 2018-06-17
+### Added
+ - Rare Card Purge: Exhaust ALL Curses and Statuses. Gain !M! Strength for each card exhausted. Exhaust.
+ - Rare Card Angelic Luck: Play and exhaust 3(5) random cards from your draw pile. Exhaust.
+ - Rare Card Revival: Return up to 2(3) cards from Exhaust.
+
 ## [pre-0.2.5] - 2018-06-15
 ### Added
  - Rare Card Blessed Fury: Costs 2(1) Holy. Until the end of turn, whenever you play a card, play it twice. Exhaust.
