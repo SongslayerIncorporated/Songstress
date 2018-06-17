@@ -78,20 +78,21 @@
 	Angelic Descent: X Cost Rare Attack.
 	Deal damage equal to your current Holy X(X+1)
 	times to all enemies. Exhaust.
-	 
-	 ------------------------------
 
-	Purge: 3(2) Cost Rare Skill: Exhaust all Curses
-	and Statuses. For each card Exhausted, gain 1 Strength.
+	Purge: 2 Cost Rare Skill: Exhaust all Curses
+	and Statuses. For each card Exhausted, gain 1(2) Strength.
+	Exhaust.
 
-	Angelic Luck: 4(3) Cost Rare Skill: Play 3(5)
+	Angelic Luck: 3(2) Cost Rare Skill: Play 3(5)
 	random cards from your draw pile, then exhaust
 	those cards. Exhaust.
-
-	Revival: 2 Cost Rare Skill:
-	Return up to 2(3) cards from Exhaust. 
 	 
-	Patch 0.3.0:
+	Revival: 2 Cost Rare Skill:
+	Return up to 2(3) cards from Exhaust.
+	
+	 ------------------------------
+	 
+	Patch 0.4.0:
 	
 	
 	Infinite Melody: 2(1) Cost Rare Power:
