@@ -94,7 +94,6 @@
 	 
 	Patch 0.4.0:
 	
-	
 	Infinite Melody: 2(1) Cost Rare Power:
 	 Whenever you play a Song, draw 1 card.
 		

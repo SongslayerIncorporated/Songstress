@@ -11,9 +11,6 @@ public class PrayerPower extends AbstractSongstressPower {
 	private static final PowerStrings powerStrings = getPowerStrings(POWER_ID);
 	public static final String NAME = powerStrings.NAME;
 	public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-	// public static final String NAME = "Prayer";
-	// public static final String[] DESCRIPTIONS = { "At the start of each turn,
-	// gain #b", " #yHoly." };
 
 	public PrayerPower(AbstractCreature owner, int amount) {
 		super(POWER_ID, NAME, owner, amount);

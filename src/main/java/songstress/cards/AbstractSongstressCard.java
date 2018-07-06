@@ -11,9 +11,10 @@ public abstract class AbstractSongstressCard extends CustomCard {
 
 	public boolean isHoly = false;
 	public boolean isCure = false;
+	public boolean isSong = false;
 
-	public AbstractSongstressCard(String id, String name, int cost, String description, CardType type, CardRarity rarity,
-			CardTarget target) {
+	public AbstractSongstressCard(String id, String name, int cost, String description, CardType type,
+			CardRarity rarity, CardTarget target) {
 		super(TheSongstressMod.withModID(id), name, getImgString(id), cost, description, type, ColorEnum.Cloud, rarity,
 				target);
 	}
