@@ -18,5 +18,15 @@
       "UNUSED_RESERVE"
     ],
     "DESCRIPTION": "Consumed by cards to grant additional effects."
+  },
+  "SONG": {
+    "NAMES": [
+      "song",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE"
+    ],
+    "DESCRIPTION": "A Song sang by the Songstress."
   }
 }

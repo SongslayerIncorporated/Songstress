@@ -8,6 +8,12 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.3.1] - 2018-07-06
+### Added
+ - Portrait for Abolish
+ - Rare Card Infinite Melody: Whenever you play a Power, draw 1 card.
+ - Keyword Song
+
 ## [0.3.0] - 2018-06-17
 ### Added
  - Rare Card Purge: Exhaust ALL Curses and Statuses. Gain !M! Strength for each card exhausted. Exhaust.

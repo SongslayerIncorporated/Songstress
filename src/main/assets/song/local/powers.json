@@ -34,5 +34,13 @@
       "For the next #b",
       " turns, whenever you play a card, play it twice."
     ]
+  },
+  "thesongstress:InfiniteMelody": {
+    "NAME": "Infinite Melody",
+    "DESCRIPTIONS": [
+      "Whenever you play a Song, draw #b",
+      " card.",
+      " cards."
+    ]
   }
 }

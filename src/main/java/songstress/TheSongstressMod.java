@@ -39,6 +39,7 @@ import songstress.cards.FaithsSaber;
 import songstress.cards.FaithsShield;
 import songstress.cards.Guidance;
 import songstress.cards.HolyBolt;
+import songstress.cards.InfiniteMelody;
 import songstress.cards.Mend;
 import songstress.cards.OnMercysWings;
 import songstress.cards.PowerChord;
@@ -129,6 +130,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Purge());
 		BaseMod.addCard(new AngelicLuck());
 		BaseMod.addCard(new Revival());
+		BaseMod.addCard(new InfiniteMelody());
 
 		// SPECIAL
 	}

@@ -88,5 +88,9 @@
   "thesongstress:Revival": {
     "NAME": "Revival",
     "DESCRIPTION": "Return up to !M! cards from Exhaust."
+  },
+  "thesongstress:InfiniteMelody": {
+    "NAME": "Infinite Melody",
+    "DESCRIPTION": "Whenever you play a Song, draw !M! card."
   }
 }
