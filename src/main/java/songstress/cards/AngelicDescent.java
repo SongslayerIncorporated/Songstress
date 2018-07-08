@@ -2,6 +2,7 @@ package songstress.cards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -9,7 +10,9 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
+import songstress.TheSongstressMod;
 import songstress.powers.Holy;
+import songstress.powers.Risen;
 
 public class AngelicDescent extends AbstractSongstressCard {
 
@@ -56,6 +59,11 @@ public class AngelicDescent extends AbstractSongstressCard {
 		for (int i = 0; i < energyOnUse; i++) {
 			AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(player, multiDamage, damageTypeForTurn,
 					AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+		}
+		if (player.hasPower(TheSongstressMod.withModID(Risen.POWER_ID))) {
+			freeToPlayOnce = true;
+			AbstractDungeon.actionManager
+					.addToBottom(new ReducePowerAction(player, player, TheSongstressMod.withModID(Risen.POWER_ID), 1));
 		}
 		if (!freeToPlayOnce) {
 			player.energy.use(EnergyPanel.totalCount);

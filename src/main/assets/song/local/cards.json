@@ -37,7 +37,7 @@
   },
   "thesongstress:PowerChord": {
     "NAME": "Power Chord",
-    "DESCRIPTION": "Deal !D! damage. Gain !M! Strength. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. Gain !M! Strength. NL Song."
   },
   "thesongstress:Prayer": {
     "NAME": "Prayer",
@@ -92,5 +92,13 @@
   "thesongstress:InfiniteMelody": {
     "NAME": "Infinite Melody",
     "DESCRIPTION": "Whenever you play a Song, draw !M! card."
+  },
+  "thesongstress:HeavenlyAscent": {
+    "NAME": "Heavenly Ascent",
+    "DESCRIPTION": "Gain !B! Block. Gain Risen."
+  },
+  "thesongstress:Serenade": {
+    "NAME": "Serenade",
+    "DESCRIPTION": "Gain !B! Block twice. NL Song."
   }
 }

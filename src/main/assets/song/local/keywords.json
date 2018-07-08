@@ -27,6 +27,16 @@
       "UNUSED_RESERVE",
       "UNUSED_RESERVE"
     ],
-    "DESCRIPTION": "A Song sang by the Songstress."
+    "DESCRIPTION": "Triggers \"When a Song is played\" effects."
+  },
+  "RISEN": {
+    "NAMES": [
+      "risen",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE",
+      "UNUSED_RESERVE"
+    ],
+    "DESCRIPTION": "The next Angelic Descent you play will refund all energy it costed."
   }
 }

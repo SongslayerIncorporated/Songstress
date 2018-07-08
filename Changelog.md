@@ -8,6 +8,15 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.3.2] - 2018-07-08
+### Added
+ - Rare Card Heavenly Ascent: Gain 15(20) Block. Gain Risen.
+ - Common Card Serenade: Gain 6(8) Block twice. Song.
+ - Power Risen: The next Angelic Descent you play will refund all energy it costed.
+ 
+ ### Changed
+ - Power Chord: No longer Exhausts: Deal 8(11) damage. Gain 1 Strength. Song.
+
 ## [0.3.1] - 2018-07-06
 ### Added
  - Portrait for Abolish

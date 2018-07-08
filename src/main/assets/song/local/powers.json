@@ -42,5 +42,13 @@
       " card.",
       " cards."
     ]
+  },
+  "thesongstress:Risen": {
+    "NAME": "Risen",
+    "DESCRIPTIONS": [
+      "The next Angelic Descent you play will refund all energy it costed.",
+      "The next #b ",
+      " Angelic Descent you play will refund all energy they costed."
+    ]
   }
 }

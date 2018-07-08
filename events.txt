@@ -1,0 +1,23 @@
+--------
+Event? (Floor 1 and 2)
+
+Trapped Harpsicord: As you walk the lengthy road, you spot an object in a glass case. It's a harpsicord! The case is locked, however.
+
+[Break the glass] Lose 25 Hp. Gain Cursed: Injury. Obtain Harpsicord.
+[Pick the lock] Obtain Harpsicord. 75% Chance: Gain 2 Random Curses. 75% Chance: Fight a random elite (no relic reward)
+[Skip This] Not worth the effort.
+
+--------
+Event? (Floor 3 Only)
+--------
+Music Festival: A band of cultists are sitting around in a circle. You go to leave, but one calls to you.
+"Relax, friend! Come enjoy the flavours of music with us!"
+
+-[Play the Harpsicord] (requires Harpsicord) Lose 10 HP. Gain 450 Gold.
+     "You decide to play the Harpsicord to your heart's content. You play for hours in the band. Fatigue begins to settle in, and you wave good-bye to your band mates."
+
+-[Borrow the Bongos] Lose 10 HP. Gain relic Bongos.
+     "You ask to borrow the Bongos. The band doesn't seem to mind. You play for hours in the band. Fatigue begins to settle in. As you leave, one of the bandmates comes over and hands you the bongos as a present. You leave.
+
+-[Politely Decline] 
+	"You decline playing in the band. They smile and wave as you walk away."
