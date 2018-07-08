@@ -46,7 +46,7 @@ public class ForgedDrums extends AbstractSongstressRelic {
 				}
 			}
 		} catch (Exception ex) {
-			ex.printStackTrace();
+
 		}
 	}
 

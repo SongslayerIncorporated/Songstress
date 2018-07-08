@@ -38,6 +38,7 @@ import songstress.cards.FaithsQuestioning;
 import songstress.cards.FaithsSaber;
 import songstress.cards.FaithsShield;
 import songstress.cards.Guidance;
+import songstress.cards.HeavenlyAscent;
 import songstress.cards.HolyBolt;
 import songstress.cards.InfiniteMelody;
 import songstress.cards.Mend;
@@ -46,6 +47,7 @@ import songstress.cards.PowerChord;
 import songstress.cards.Prayer;
 import songstress.cards.Purge;
 import songstress.cards.Revival;
+import songstress.cards.Serenade;
 import songstress.cards.Shimmer;
 import songstress.cards.Siphon;
 import songstress.cards.Strike;
@@ -112,6 +114,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Shimmer());
 		BaseMod.addCard(new Prayer());
 		BaseMod.addCard(new Siphon());
+		BaseMod.addCard(new Serenade());
 
 		// UNCOMMON
 
@@ -131,6 +134,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new AngelicLuck());
 		BaseMod.addCard(new Revival());
 		BaseMod.addCard(new InfiniteMelody());
+		BaseMod.addCard(new HeavenlyAscent());
 
 		// SPECIAL
 	}

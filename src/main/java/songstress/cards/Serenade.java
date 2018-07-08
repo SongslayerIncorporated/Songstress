@@ -1,30 +1,28 @@
 package songstress.cards;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import songstress.powers.InfiniteMelodyPower;
+public class Serenade extends AbstractSongstressCard {
 
-public class InfiniteMelody extends AbstractSongstressCard {
-
-	public static final String ID = "InfiniteMelody";
+	public static final String ID = "Serenade";
 	private static final CardStrings cardStrings = getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	private static final int COST = 2;
-	private static final int COST_UPGRADED = 1;
+	private static final int COST = 1;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-	private static final int DRAW_AMT = 1;
-	private static final CardType TYPE = CardType.POWER;
-	private static final CardRarity RARITY = CardRarity.RARE;
+	private static final int BASE_BLOCK = 5;
+	private static final int UPGRADE_BLOCK = 3;
+	private static final CardType TYPE = CardType.SKILL;
+	private static final CardRarity RARITY = CardRarity.BASIC;
 	private static final CardTarget TARGET = CardTarget.SELF;
 
-	public InfiniteMelody() {
+	public Serenade() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
-		magicNumber = baseMagicNumber = DRAW_AMT;
+		baseBlock = BASE_BLOCK;
 		isSong = true;
 	}
 
@@ -32,19 +30,19 @@ public class InfiniteMelody extends AbstractSongstressCard {
 	public void upgrade() {
 		if (!upgraded) {
 			upgradeName();
-			upgradeBaseCost(COST_UPGRADED);
+			upgradeBlock(UPGRADE_BLOCK);
 		}
 	}
 
 	@Override
 	public AbstractCard makeCopy() {
-		return new InfiniteMelody();
+		return new Serenade();
 	}
 
 	@Override
-	public void use(AbstractPlayer p, AbstractMonster m) {
-		AbstractDungeon.actionManager
-				.addToBottom(new ApplyPowerAction(p, p, new InfiniteMelodyPower(p, magicNumber), magicNumber));
+	public void use(AbstractPlayer player, AbstractMonster monster) {
+		AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, block));
+		AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, block));
 	}
 
 }

@@ -89,8 +89,6 @@
 	 
 	Revival: 2 Cost Rare Skill:
 	Return up to 2(3) cards from Exhaust.
-	
-	 ------------------------------
 	 
 	Patch 0.4.0:
 	
@@ -99,9 +97,35 @@
 		
 		Heavenly Ascent: 1 Cost Rare Skill:
 		 Gain 15(20) Block. Gain Risen.
-	(Risen: The next Angelic Descend
-	 you play will refund all mana it costed.)
+	(Risen: The next Angelic Descent
+	 you play will refund all energy it costed.)
+	Power Chord: No longer Exhausts.
+	"Deal 8(11) damage. Gain 1 Strength. Song.
 	
+	Serenade: 1 Cost Common Skill: 
+	Gain 6(8) Block twice. Song.
+	
+	 ------------------------------
+	
+	Sour Note: 1 Cost Common Attack:
+	 Deal 7(10) damage to all enemies.
+	  Apply 2(3) Weak. Song
+	
+	 Pentagonal Solo: 2 Cost Uncommon Attack:
+	  Deal 5(10) damage. Apply 1(2) Weak.
+	   Apply 1(2) Vulnerable. Gain 1 Strength.
+	   Gain 1 Dexterity. Song. Exhaust.
+	 
+	Diminuendo: 1 Cost Common Skill:
+	 Apply 3(5) Weak to all enemies.
+	  Clear any Strength buff they have.
+	   (Wording needs a help)
+	   
+	Sheet Music: 1(0) Cost Skill:
+	 Draw 1 Card.
+	  Draw 1 additional card for each Song
+	   you've played this turn.
+	   
 	Harmonic Melody: 1 Cost Common Attack:
 	 Deal 4(7) damage to all enemies.
 	  Apply "Charmed". Song.
@@ -113,15 +137,7 @@
 	 2 Cost Common Attack:
 	  Deal 11(14) damage.
 	   If enemy is "Charmed",
-	    deal 25(29) damage instead. Song.
-	
-	Power Chord is now 2 Cost Attack:
-	 Deal 11(14) damage.
-	  Gain 1 Strength.
-	   Exhaust. Song. (Starter Deck)
-	
-	Serenade: 1 Cost Common Skill: 
-	Gain 6(8) Block twice. Song.
+	    deal 14 more damage. Song.
 	
 	Sonic Screech: 2 Cost Common Attack:
 	 Deal 15(19) damage to all enemies.
@@ -131,24 +147,9 @@
 	Deafened Stab: 2 Cost Common Attack:
 	 Deal 40 damage. Can only use while Muted.
 	
-	Diminuendo: 1 Cost Common Skill:
-	 Apply 3(5) Weak to all enemies.
-	  Clear any Strength buff they have.
-	   (Wording needs a help)
-	
-	Sour Note: 1 Cost Common Attack:
-	 Deal 7(10) damage to all enemies.
-	  Apply 2(3) Weak. Song
-	
-	Sheet Music: 1(0) Cost Skill:
-	 Draw 1 Card.
-	  Draw 1 additional card for each Song
-	   you've played this turn.
 	
 	Symphony: 2 Cost Uncommon Attack:
 	 Deal 3 damage to all enemies.
 	  Deal an additional 3(4) damage
 	   for each Song in your deck.
 	    At the end of turn, gain Muted.
-		 
-		 
