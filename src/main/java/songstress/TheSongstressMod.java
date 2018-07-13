@@ -86,12 +86,12 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 	public static void initialize() {
 		logger.info("Initializing TheSongstress");
 		logger.info("Registering Color Cloud");
-		Color color = Color.LIGHT_GRAY.cpy();
+		Color color = new Color(0x1E90FFFF);
 		BaseMod.addColor(ColorEnum.Cloud.toString(), color, color, color, color, color, color, color,
-				"song/img/cards/512/bg_attack_cloud3.png", "song/img/cards/512/bg_skill_cloud2.png",
-				"song/img/cards/512/bg_power_cloud2.png", "song/img/cards/512/card_cloud_orb.png",
-				"song/img/cards/1024/bg_attack_cloud3.png", "song/img/cards/1024/bg_skill_cloud2.png",
-				"song/img/cards/1024/bg_power_cloud2.png", "song/img/cards/1024/card_cloud_orb.png");
+				"song/img/cards/512/bg_attack_cloud.png", "song/img/cards/512/bg_skill_cloud.png",
+				"song/img/cards/512/bg_power_cloud.png", "song/img/cards/512/card_cloud_orb2.png",
+				"song/img/cards/1024/bg_attack_cloud.png", "song/img/cards/1024/bg_skill_cloud.png",
+				"song/img/cards/1024/bg_power_cloud.png", "song/img/cards/1024/card_cloud_orb2.png");
 		BaseMod.subscribe(new TheSongstressMod());
 		BaseMod.subscribe(new HarpsichordHelper());
 	}
