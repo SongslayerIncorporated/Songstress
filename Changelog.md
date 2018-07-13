@@ -8,6 +8,10 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.1] - 2018-07-13
+### Changed
+ - Energy Orb is now blue instead of gray
+
 ## [0.4.0] - 2018-07-13
 ### Added
  - Common Card Sour Note: Deal 7(10) damage and apply 2(3) Weak to all enemies. Song.
