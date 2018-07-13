@@ -8,6 +8,25 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.0] - 2018-07-13
+### Added
+ - Common Card Sour Note: Deal 7(10) damage and apply 2(3) Weak to all enemies. Song.
+ - Common Card Diminuendo: Apply 3(5) Weak to all enemies and remove their Strength. Exhaust.
+ - Common Card Harmonic Melody: Deal 4(7) damage and apply Charmed to all enemies.
+ - Uncommon Card Pentagonal Solo: Deal 5(10) damage and apply 1(2) Weak and 1(2) Vulnerable. Gain 1 Strength and 1 Dexterity. Song. Exhaust.
+ - Uncommon Card Sheet Music: Draw 1 Card. Draw 1 additional card for each Song you've played this turn.
+ - Uncommon Card Destructive Discord: Deal 11(17) damage. If the enemy is Charmed, deal 14 more damage. Song.
+ - Uncommon Card Sonic Screech: Deal 16(21) damage to all enemies. Gain 1 Muted.
+ - Uncommon Card Sonic Screech: Deal 3(4) damage to all enemies for each Song in your deck. Gain 2 Muted.
+ - Rare Card Deafened Stab: Can only play while Muted. Deal 40(50) damage.
+ 
+ - Charmed Power: Charmed enemies deal 50% less damage. Removed when the enemy takes attack damage.
+ - Muted Power: Cannot play Songs until the start of your next turn.
+ 
+ ### Changed
+ - If you don't have enough Holy to pay for a card you now can't play it.
+ - Wing Buffet -> Deal 1(+U) damage 5(+U) times. Can be upgraded any number of times.
+
 ## [0.3.2] - 2018-07-08
 ### Added
  - Rare Card Heavenly Ascent: Gain 15(20) Block. Gain Risen.

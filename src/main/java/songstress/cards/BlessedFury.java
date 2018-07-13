@@ -28,6 +28,7 @@ public class BlessedFury extends AbstractSongstressCard {
 		baseMagicNumber = magicNumber = HOLY_COST;
 		exhaust = true;
 		isHoly = true;
+		holyCost = HOLY_COST;
 	}
 
 	@Override
@@ -35,6 +36,7 @@ public class BlessedFury extends AbstractSongstressCard {
 		if (!upgraded) {
 			upgradeName();
 			upgradeMagicNumber(UPGRADE_HOLY_COST);
+			holyCost += UPGRADE_HOLY_COST;
 		}
 	}
 
@@ -45,7 +47,7 @@ public class BlessedFury extends AbstractSongstressCard {
 
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		if (Holy.holyAmount() > magicNumber) {
+		if (Holy.holyAmount() >= magicNumber) {
 			Holy.flashOnce();
 			Holy.reduceBy(magicNumber);
 			AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new BlessedFuryPower(1), 1));

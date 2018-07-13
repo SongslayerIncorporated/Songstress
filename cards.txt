@@ -99,13 +99,12 @@
 		 Gain 15(20) Block. Gain Risen.
 	(Risen: The next Angelic Descent
 	 you play will refund all energy it costed.)
+	 
 	Power Chord: No longer Exhausts.
 	"Deal 8(11) damage. Gain 1 Strength. Song.
 	
 	Serenade: 1 Cost Common Skill: 
 	Gain 6(8) Block twice. Song.
-	
-	 ------------------------------
 	
 	Sour Note: 1 Cost Common Attack:
 	 Deal 7(10) damage to all enemies.
@@ -117,9 +116,8 @@
 	   Gain 1 Dexterity. Song. Exhaust.
 	 
 	Diminuendo: 1 Cost Common Skill:
-	 Apply 3(5) Weak to all enemies.
-	  Clear any Strength buff they have.
-	   (Wording needs a help)
+	 Apply 3(5) Weak to all enemies 
+	 and remove their Strength. Exhaust.
 	   
 	Sheet Music: 1(0) Cost Skill:
 	 Draw 1 Card.
@@ -134,22 +132,26 @@
 	(Song: Triggers "When a Song is played" effects.)
 	
 	Destructive Discord:
-	 2 Cost Common Attack:
-	  Deal 11(14) damage.
+	 2 Cost Unommon Attack:
+	  Deal 11(17) damage.
 	   If enemy is "Charmed",
 	    deal 14 more damage. Song.
 	
-	Sonic Screech: 2 Cost Common Attack:
-	 Deal 15(19) damage to all enemies.
-	  Gain Muted until the end of your next turn.
-	(Muted: Cannot play Songs.)
+	Sonic Screech: 2 Cost Uncommon Attack:
+	 Deal 16(21) damage to all enemies.
+	  Gain 1 Muted.
+	(Muted: Cannot play Songs until
+	 the start of your next turn.)
 	
-	Deafened Stab: 2 Cost Common Attack:
-	 Deal 40 damage. Can only use while Muted.
-	
+	Deafened Stab: 1 (0) Cost Rare Attack:
+	 Can only play while Muted. Deal 40(50) damage.
 	
 	Symphony: 2 Cost Uncommon Attack:
-	 Deal 3 damage to all enemies.
-	  Deal an additional 3(4) damage
+	  Deal 3(4) damageto all enemies
 	   for each Song in your deck.
-	    At the end of turn, gain Muted.
+	    Gain 2 Muted.
+
+	Wing Buffet: Deal 1(+U) damage 5(+U) times.
+	 Can be Upgraded any number of times.
+	
+	 ------------------------------

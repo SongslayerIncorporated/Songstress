@@ -1,4 +1,48 @@
 {
+  "thesongstress:BlessedFury": {
+    "NAME": "Blessed Fury",
+    "DESCRIPTIONS": [
+      "Until the end of turn, whenever you play a card, play it twice.",
+      "For the next #b",
+      " turns, whenever you play a card, play it twice."
+    ]
+  },
+  "thesongstress:Charmed": {
+    "NAME": "Charmed",
+    "DESCRIPTIONS": [
+      "Deals 50% less damage. Removed if this enemy takes attack damage."
+    ]
+  },
+  "thesongstress:Holy": {
+    "NAME": "Holy",
+    "DESCRIPTIONS": [
+      "Consumed by cards to grant additional effects."
+    ]
+  },
+  "thesongstress:InfiniteMelody": {
+    "NAME": "Infinite Melody",
+    "DESCRIPTIONS": [
+      "Whenever you play a Song, draw #b",
+      " card.",
+      " cards."
+    ]
+  },
+  "thesongstress:MercysWings": {
+    "NAME": "Mercy's Wings",
+    "DESCRIPTIONS": [
+      "Take half damage until the start of your next turn.",
+      "Take half damage for the next #b",
+      " turns."
+    ]
+  },
+  "thesongstress:Muted": {
+    "NAME": "Muted",
+    "DESCRIPTIONS": [
+      "Cannot play Songs until the start of your next turn.",
+      "Cannot play Songs for #b ",
+      " turns."
+    ]
+  },
   "thesongstress:NextTurnHoly": {
     "NAME": "Next Turn Holy",
     "DESCRIPTIONS": [
@@ -11,36 +55,6 @@
     "DESCRIPTIONS": [
       "At the start of each turn, gain #b",
       " #yHoly."
-    ]
-  },
-  "thesongstress:Holy": {
-    "NAME": "Holy",
-    "DESCRIPTIONS": [
-      "Consumed by cards to grant additional effects."
-    ]
-  },
-  "thesongstress:MercysWings": {
-    "NAME": "Mercy's Wings",
-    "DESCRIPTIONS": [
-      "Take half damage until the start of your next turn.",
-      "Take half damage for the next #b",
-      " turns."
-    ]
-  },
-  "thesongstress:BlessedFury": {
-    "NAME": "Blessed Fury",
-    "DESCRIPTIONS": [
-      "Until the end of turn, whenever you play a card, play it twice.",
-      "For the next #b",
-      " turns, whenever you play a card, play it twice."
-    ]
-  },
-  "thesongstress:InfiniteMelody": {
-    "NAME": "Infinite Melody",
-    "DESCRIPTIONS": [
-      "Whenever you play a Song, draw #b",
-      " card.",
-      " cards."
     ]
   },
   "thesongstress:Risen": {

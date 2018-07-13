@@ -16,32 +16,36 @@ public class WingBuffet extends AbstractSongstressCard {
 	public static final String NAME = cardStrings.NAME;
 	private static final int COST = 1;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-	private static final int ATTACK_DMG = 2;
-	private static final int UPGRADE_ATTACK_DMG = 1;
-	private static final int ATTACK_TIMES = 6;
-	private static final int UPGRADE_ATTACK_TIMES = 1;
+	private static final int ATTACK_DMG = 1;
+	private static final int ATTACK_TIMES = 5;
 	private static final CardType TYPE = CardType.ATTACK;
 	private static final CardRarity RARITY = CardRarity.UNCOMMON;
 	private static final CardTarget TARGET = CardTarget.ENEMY;
 
 	public WingBuffet() {
+		this(0);
+	}
+
+	public WingBuffet(int upgrades) {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
+		timesUpgraded = upgrades;
 		baseDamage = ATTACK_DMG;
 		magicNumber = baseMagicNumber = ATTACK_TIMES;
 	}
 
 	@Override
 	public void upgrade() {
-		if (!upgraded) {
-			upgradeName();
-			upgradeDamage(UPGRADE_ATTACK_DMG);
-			upgradeMagicNumber(UPGRADE_ATTACK_TIMES);
-		}
+		upgradeDamage(1);
+		upgradeMagicNumber(1);
+		++timesUpgraded;
+		upgraded = true;
+		name = NAME + "+" + timesUpgraded;
+		initializeTitle();
 	}
 
 	@Override
 	public AbstractCard makeCopy() {
-		return new WingBuffet();
+		return new WingBuffet(timesUpgraded);
 	}
 
 	@Override
@@ -49,9 +53,9 @@ public class WingBuffet extends AbstractSongstressCard {
 		int i;
 		// for every 2 attack times we want to strike once vert and once horz
 		for (i = 0; i < magicNumber / 2; i++) {
-			AbstractDungeon.actionManager.addToBottom(new DamageAction(monster,
-					new DamageInfo(player, damage, damageTypeForTurn),
-					AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+			AbstractDungeon.actionManager
+					.addToBottom(new DamageAction(monster, new DamageInfo(player, damage, damageTypeForTurn),
+							AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
 			AbstractDungeon.actionManager.addToBottom(new DamageAction(monster,
 					new DamageInfo(player, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
 		}

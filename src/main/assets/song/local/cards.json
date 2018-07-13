@@ -3,9 +3,34 @@
     "NAME": "Abolish",
     "DESCRIPTION": "Deal !B! damage. Deal !D! damage to all enemies. Lose all Holy. Lose 3 Strength and Dexterity. NL Exhaust."
   },
+  "thesongstress:AngelicDescent": {
+    "NAME": "Angelic Descent",
+    "DESCRIPTION": "Deal damage equal to your current Holy to all enemies X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to your current Holy to all enemies X+1 times. NL Exhaust."
+  },
+  "thesongstress:AngelicLuck": {
+    "NAME": "Angelic Luck",
+    "DESCRIPTION": "Play and exhaust !M! random cards from your draw pile. NL Exhaust."
+  },
+  "thesongstress:BlessedFury": {
+    "NAME": "Blessed Fury",
+    "DESCRIPTION": "Costs !M! Holy. Until the end of turn, whenever you play a card, play it twice. NL Exhaust."
+  },
+  "thesongstress:DeafenedStab": {
+    "NAME": "Deafened Stab",
+    "DESCRIPTION": "Can only play while Muted. Deal !D! damage."
+  },
   "thesongstress:Defend": {
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
+  },
+  "thesongstress:DestructiveDiscord": {
+    "NAME": "Destructive Discord",
+    "DESCRIPTION": "Deal !D! damage. If the enemy is Charmed, deal !M! more damage. NL Song."
+  },
+  "thesongstress:Diminuendo": {
+    "NAME": "Diminuendo",
+    "DESCRIPTION": "Apply !M! Weak to all enemies and remove their Strength. NL Exhaust."
   },
   "thesongstress:Exorcism": {
     "NAME": "Exorcism",
@@ -27,13 +52,38 @@
     "NAME": "Faith's Shield",
     "DESCRIPTION": "Gain !B! Block. Gain !M! Holy."
   },
+  "thesongstress:Guidance": {
+    "NAME": "Guidance",
+    "DESCRIPTION": "On your next turn, gain X Holy and draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "On your next turn, gain X+1 Holy and draw !M! cards."
+  },
+  "thesongstress:HarmonicMelody": {
+    "NAME": "Harmonic Melody",
+    "DESCRIPTION": "Deal !D! damage and apply Charmed to all enemies. "
+  },
+  "thesongstress:HeavenlyAscent": {
+    "NAME": "Heavenly Ascent",
+    "DESCRIPTION": "Gain !B! Block. Gain Risen."
+  },
   "thesongstress:HolyBolt": {
     "NAME": "Holy Bolt",
     "DESCRIPTION": "Deal !D! damage. Gain !M! Holy."
   },
+  "thesongstress:InfiniteMelody": {
+    "NAME": "Infinite Melody",
+    "DESCRIPTION": "Whenever you play a Song, draw !M! card."
+  },
   "thesongstress:Mend": {
     "NAME": "Mend",
     "DESCRIPTION": "Cure. NL Draw !M! cards. NL Exhaust."
+  },
+  "thesongstress:OnMercysWings": {
+    "NAME": "On Mercy's Wings",
+    "DESCRIPTION": "Gain !M! Holy. Take half damage until the start of your next turn."
+  },
+  "thesongstress:PentagonalSolo": {
+    "NAME": "Pentagonal Solo",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Weak and !M! Vulnerable. Gain 1 Strength and 1 Dexterity. NL Song. Exhaust."
   },
   "thesongstress:PowerChord": {
     "NAME": "Power Chord",
@@ -43,6 +93,27 @@
     "NAME": "Prayer",
     "DESCRIPTION": "At the start of each turn, gain !M! Holy."
   },
+  "thesongstress:Purge": {
+    "NAME": "Purge",
+    "DESCRIPTION": "Exhaust ALL Curses and Statuses. Gain !M! Strength for each card exhausted. NL Exhaust."
+  },
+  "thesongstress:Revival": {
+    "NAME": "Revival",
+    "DESCRIPTION": "Return up to !M! cards from Exhaust."
+  },
+  "thesongstress:Serenade": {
+    "NAME": "Serenade",
+    "DESCRIPTION": "Gain !B! Block twice. NL Song."
+  },
+  "thesongstress:SheetMusic": {
+    "NAME": "Sheet Music",
+    "DESCRIPTION": "Draw !M! card. Draw 1 additional card for each Song played this turn.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " Song played.)",
+      " Songs played.)"
+    ]
+  },
   "thesongstress:Shimmer": {
     "NAME": "Shimmer",
     "DESCRIPTION": "Apply !M! Weak. Use 1 Holy to gain !B! Block."
@@ -51,54 +122,29 @@
     "NAME": "Siphon",
     "DESCRIPTION": "Cure. NL Deal !D! damage."
   },
+  "thesongstress:SonicScreech": {
+    "NAME": "Sonic Screech",
+    "DESCRIPTION": "Deal !D! damage to all enemies. Gain 1 Muted."
+  },
+  "thesongstress:SourNote": {
+    "NAME": "Sour Note",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Weak to all enemies. NL Song."
+  },
   "thesongstress:Strike": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! damage."
   },
+  "thesongstress:Symphony": {
+    "NAME": "Symphony",
+    "DESCRIPTION": "Deal !D! damage to all enemies for each Song in your deck. Gain 2 Muted.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (You have ",
+      " Song.)",
+      " Songs.)"
+    ]
+  },
   "thesongstress:WingBuffet": {
     "NAME": "Wing Buffet",
-    "DESCRIPTION": "Deal !D! damage !M! times."
-  },
-  "thesongstress:OnMercysWings": {
-    "NAME": "On Mercy's Wings",
-    "DESCRIPTION": "Gain !M! Holy. Take half damage until the start of your next turn."
-  },
-  "thesongstress:Guidance": {
-    "NAME": "Guidance",
-    "DESCRIPTION": "On your next turn, gain X Holy and draw !M! cards.",
-    "UPGRADE_DESCRIPTION": "On your next turn, gain X+1 Holy and draw !M! cards."
-  },
-  "thesongstress:BlessedFury": {
-    "NAME": "Blessed Fury",
-    "DESCRIPTION": "Costs !M! Holy. Until the end of turn, whenever you play a card, play it twice. NL Exhaust."
-  },
-  "thesongstress:AngelicDescent": {
-    "NAME": "Angelic Descent",
-    "DESCRIPTION": "Deal damage equal to your current Holy to all enemies X times. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal damage equal to your current Holy to all enemies X+1 times. NL Exhaust."
-  },
-  "thesongstress:Purge": {
-    "NAME": "Purge",
-    "DESCRIPTION": "Exhaust ALL Curses and Statuses. Gain !M! Strength for each card exhausted. NL Exhaust."
-  },
-  "thesongstress:AngelicLuck": {
-    "NAME": "Angelic Luck",
-    "DESCRIPTION": "Play and exhaust !M! random cards from your draw pile. NL Exhaust."
-  },
-  "thesongstress:Revival": {
-    "NAME": "Revival",
-    "DESCRIPTION": "Return up to !M! cards from Exhaust."
-  },
-  "thesongstress:InfiniteMelody": {
-    "NAME": "Infinite Melody",
-    "DESCRIPTION": "Whenever you play a Song, draw !M! card."
-  },
-  "thesongstress:HeavenlyAscent": {
-    "NAME": "Heavenly Ascent",
-    "DESCRIPTION": "Gain !B! Block. Gain Risen."
-  },
-  "thesongstress:Serenade": {
-    "NAME": "Serenade",
-    "DESCRIPTION": "Gain !B! Block twice. NL Song."
+    "DESCRIPTION": "Deal !D! damage !M! times. Can be upgraded any number of times."
   }
 }
