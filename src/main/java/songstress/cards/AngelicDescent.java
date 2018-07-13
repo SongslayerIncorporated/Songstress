@@ -29,6 +29,8 @@ public class AngelicDescent extends AbstractSongstressCard {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
 		isMultiDamage = true;
 		exhaust = true;
+		isHoly = true;
+		holyCost = 1;
 	}
 
 	@Override

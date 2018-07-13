@@ -12,6 +12,8 @@ public class Holy extends AbstractSongstressPower {
 	public static final String NAME = powerStrings.NAME;
 	public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
+	public static final String NOT_ENOUGH_HOLY = "I don't have enough " + POWER_ID + " to play this.";
+
 	public Holy(int amount) {
 		super(POWER_ID, NAME, AbstractDungeon.player, amount);
 		updateDescription();

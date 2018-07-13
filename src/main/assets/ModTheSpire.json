@@ -3,7 +3,7 @@
   "name": "The Songstress",
   "author_list": ["LuciusMaveric" , "Skrelpoid" ],
   "description": "Adds a new character, The Songstress",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "sts_version": "07-05-2018",
   "mts_version": "2.7.0",
   "dependencies": ["basemod"],

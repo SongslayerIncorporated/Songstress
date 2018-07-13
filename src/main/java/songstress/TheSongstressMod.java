@@ -31,26 +31,35 @@ import songstress.cards.Abolish;
 import songstress.cards.AngelicDescent;
 import songstress.cards.AngelicLuck;
 import songstress.cards.BlessedFury;
+import songstress.cards.DeafenedStab;
 import songstress.cards.Defend;
+import songstress.cards.DestructiveDiscord;
+import songstress.cards.Diminuendo;
 import songstress.cards.Exorcism;
 import songstress.cards.Expunge;
 import songstress.cards.FaithsQuestioning;
 import songstress.cards.FaithsSaber;
 import songstress.cards.FaithsShield;
 import songstress.cards.Guidance;
+import songstress.cards.HarmonicMelody;
 import songstress.cards.HeavenlyAscent;
 import songstress.cards.HolyBolt;
 import songstress.cards.InfiniteMelody;
 import songstress.cards.Mend;
 import songstress.cards.OnMercysWings;
+import songstress.cards.PentagonalSolo;
 import songstress.cards.PowerChord;
 import songstress.cards.Prayer;
 import songstress.cards.Purge;
 import songstress.cards.Revival;
 import songstress.cards.Serenade;
+import songstress.cards.SheetMusic;
 import songstress.cards.Shimmer;
 import songstress.cards.Siphon;
+import songstress.cards.SonicScreech;
+import songstress.cards.SourNote;
 import songstress.cards.Strike;
+import songstress.cards.Symphony;
 import songstress.cards.WingBuffet;
 import songstress.patches.ColorEnum;
 import songstress.patches.PlayerClassEnum;
@@ -115,6 +124,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Prayer());
 		BaseMod.addCard(new Siphon());
 		BaseMod.addCard(new Serenade());
+		BaseMod.addCard(new SourNote());
+		BaseMod.addCard(new Diminuendo());
+		BaseMod.addCard(new SheetMusic());
+		BaseMod.addCard(new HarmonicMelody());
 
 		// UNCOMMON
 
@@ -124,6 +137,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new WingBuffet());
 		BaseMod.addCard(new OnMercysWings());
 		BaseMod.addCard(new Guidance());
+		BaseMod.addCard(new PentagonalSolo());
+		BaseMod.addCard(new DestructiveDiscord());
+		BaseMod.addCard(new SonicScreech());
+		BaseMod.addCard(new Symphony());
 
 		// RARE
 		BaseMod.addCard(new BlessedFury());
@@ -135,6 +152,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		BaseMod.addCard(new Revival());
 		BaseMod.addCard(new InfiniteMelody());
 		BaseMod.addCard(new HeavenlyAscent());
+		BaseMod.addCard(new DeafenedStab());
 
 		// SPECIAL
 	}

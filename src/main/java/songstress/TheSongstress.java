@@ -4,12 +4,15 @@ import java.util.ArrayList;
 
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.EnergyManager;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import basemod.abstracts.CustomPlayer;
+import songstress.cards.AbstractSongstressCard;
 import songstress.cards.Defend;
 import songstress.cards.PowerChord;
 import songstress.cards.Strike;
@@ -26,6 +29,8 @@ public class TheSongstress extends CustomPlayer {
 	public static final int ENERGY = 3;
 	public static final int START_GOLD = 110;
 
+	public static int songsPlayedThisTurn = 0;
+
 	public TheSongstress(String name, AbstractPlayer.PlayerClass setClass) {
 		super(name, setClass, getOrbTextures(), "song/img/char/orb/vfx.png", (String) null, null);
 		initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png", "song/img/char/corpse.png",
@@ -38,6 +43,20 @@ public class TheSongstress extends CustomPlayer {
 	public static CharSelectInfo getLoadout() {
 		return new CharSelectInfo(NAMES[0], TEXT1[0], START_HP, START_HP, MAX_ORBS, START_GOLD, CARD_DRAW,
 				PlayerClassEnum.TheSongstress, getStartingRelics(), getStartingDeck(), false);
+	}
+
+	@Override
+	public void applyStartOfTurnPowers() {
+		songsPlayedThisTurn = 0;
+		super.applyStartOfTurnPowers();
+	}
+
+	@Override
+	public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
+		super.useCard(c, monster, energyOnUse);
+		if (c instanceof AbstractSongstressCard && ((AbstractSongstressCard) c).isSong) {
+			songsPlayedThisTurn++;
+		}
 	}
 
 	public static ArrayList<String> getStartingDeck() {

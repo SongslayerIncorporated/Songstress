@@ -1,42 +1,40 @@
 {
+  "CHARMED": {
+    "NAMES": [
+      "charmed"
+    ],
+    "DESCRIPTION": "Charmed enemies deal 50% less damage. Removed when the enemy takes attack damage."
+  },
   "CURE": {
     "NAMES": [
       "cure",
       "cures",
-      "cured",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE"
+      "cured"
     ],
     "DESCRIPTION": "Use all your Holy to heal equal to the amount you lost."
   },
   "HOLY": {
     "NAMES": [
-      "holy",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE"
+      "holy"
     ],
     "DESCRIPTION": "Consumed by cards to grant additional effects."
   },
-  "SONG": {
+  "MUTED": {
     "NAMES": [
-      "song",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE"
+      "muted"
     ],
-    "DESCRIPTION": "Triggers \"When a Song is played\" effects."
+    "DESCRIPTION": "Cannot play Songs until the start of your next turn."
   },
   "RISEN": {
     "NAMES": [
-      "risen",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE",
-      "UNUSED_RESERVE"
+      "risen"
     ],
     "DESCRIPTION": "The next Angelic Descent you play will refund all energy it costed."
+  },
+  "SONG": {
+    "NAMES": [
+      "song"
+    ],
+    "DESCRIPTION": "Triggers \"When a Song is played\" effects."
   }
 }
