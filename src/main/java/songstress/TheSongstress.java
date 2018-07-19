@@ -36,7 +36,7 @@ public class TheSongstress extends CustomPlayer {
 		initializeClass(null, "song/img/char/shoulder2.png", "song/img/char/shoulder1.png", "song/img/char/corpse.png",
 				getLoadout(), 20.0f, -10.0f, 220.0f, 290.0f, new EnergyManager(ENERGY));
 		loadAnimation("song/img/char/idle/skeleton.atlas", "song/img/char/idle/skeleton.json", 1.0f);
-		AnimationState.TrackEntry e = state.setAnimation(0, "animation", true);
+		AnimationState.TrackEntry e = state.setAnimation(0, "idle", true);
 		e.setTime(e.getEndTime() * MathUtils.random());
 	}
 

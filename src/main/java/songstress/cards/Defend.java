@@ -22,7 +22,7 @@ public class Defend extends AbstractSongstressCard {
 
 	public Defend() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
-		this.baseBlock = BASE_BLOCK;
+		baseBlock = BASE_BLOCK;
 	}
 
 	@Override
@@ -40,7 +40,10 @@ public class Defend extends AbstractSongstressCard {
 
 	@Override
 	public void use(AbstractPlayer player, AbstractMonster monster) {
-		AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, this.block));
+		AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, block));
 	}
 
+	public boolean isDefend() {
+		return true;
+	}
 }

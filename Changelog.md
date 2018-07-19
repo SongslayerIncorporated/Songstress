@@ -8,6 +8,13 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.2] - 2018-07-19
+### Added
+ - New Images for: Forged Drums, Bongos!
+ 
+### Changed
+ - Images for: Character Model, Portrait, Button
+
 ## [0.4.1] - 2018-07-13
 ### Changed
  - Energy Orb is now blue instead of gray

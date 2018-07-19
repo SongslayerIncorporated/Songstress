@@ -24,7 +24,7 @@ public class Strike extends AbstractSongstressCard {
 
 	public Strike() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
-		this.baseDamage = ATTACK_DMG;
+		baseDamage = ATTACK_DMG;
 	}
 
 	@Override
@@ -42,9 +42,12 @@ public class Strike extends AbstractSongstressCard {
 
 	@Override
 	public void use(AbstractPlayer player, AbstractMonster monster) {
-		AbstractDungeon.actionManager
-		.addToBottom(new DamageAction(monster, new DamageInfo(player, this.damage, this.damageTypeForTurn),
-				AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+		AbstractDungeon.actionManager.addToBottom(new DamageAction(monster,
+				new DamageInfo(player, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+	}
+
+	public boolean isStrike() {
+		return true;
 	}
 
 }
