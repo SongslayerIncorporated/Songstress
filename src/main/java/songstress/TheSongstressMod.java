@@ -99,7 +99,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 	@Override
 	public void receiveEditCharacters() {
 		logger.info("Adding Character: The Songstress");
-		String button = "song/img/char/button.png";
+		String button = "song/img/char/microphone.png";
 		String portrait = "song/img/char/portrait.jpg";
 
 		BaseMod.addCharacter(TheSongstress.class, TheSongstress.NAMES[0], TheSongstress.NAMES[0],

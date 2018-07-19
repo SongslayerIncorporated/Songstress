@@ -1,132 +1,132 @@
 
 skeleton.png
-size: 1024,128
+size: 512,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/armleft
-  rotate: true
-  xy: 165, 35
-  size: 28, 29
-  orig: 28, 29
-  offset: 0, 0
-  index: -1
-images/armright
-  rotate: false
-  xy: 644, 92
-  size: 29, 34
-  orig: 29, 34
-  offset: 0, 0
-  index: -1
-images/belt
-  rotate: false
-  xy: 242, 69
-  size: 71, 24
-  orig: 71, 24
-  offset: 0, 0
-  index: -1
 images/body
   rotate: false
-  xy: 446, 25
-  size: 102, 101
-  orig: 102, 101
+  xy: 115, 42
+  size: 33, 46
+  orig: 33, 46
   offset: 0, 0
   index: -1
-images/bootleft
+images/capeleft
   rotate: false
-  xy: 550, 67
-  size: 43, 59
-  orig: 43, 59
+  xy: 2, 90
+  size: 153, 164
+  orig: 153, 164
   offset: 0, 0
   index: -1
-images/bootright
+images/caperght
   rotate: true
-  xy: 2, 16
-  size: 47, 63
-  orig: 47, 63
+  xy: 157, 81
+  size: 133, 150
+  orig: 133, 150
+  offset: 0, 0
+  index: -1
+images/dagger
+  rotate: false
+  xy: 309, 164
+  size: 66, 50
+  orig: 66, 50
   offset: 0, 0
   index: -1
 images/eye
   rotate: false
-  xy: 589, 49
-  size: 18, 16
-  orig: 18, 16
+  xy: 2, 3
+  size: 15, 7
+  orig: 15, 7
   offset: 0, 0
   index: -1
-images/hair
+images/eyelidbottom
+  rotate: false
+  xy: 356, 155
+  size: 9, 7
+  orig: 9, 7
+  offset: 0, 0
+  index: -1
+images/eyelidtop
   rotate: true
-  xy: 115, 35
-  size: 28, 48
-  orig: 28, 48
+  xy: 115, 2
+  size: 10, 9
+  orig: 10, 9
   offset: 0, 0
   index: -1
-images/handleft
+images/face
   rotate: false
-  xy: 675, 97
-  size: 28, 29
-  orig: 28, 29
+  xy: 309, 92
+  size: 26, 27
+  orig: 26, 27
   offset: 0, 0
   index: -1
-images/handright
+images/foot
   rotate: false
-  xy: 67, 17
-  size: 46, 46
-  orig: 46, 46
+  xy: 309, 121
+  size: 33, 22
+  orig: 33, 22
   offset: 0, 0
   index: -1
-images/helmet
-  rotate: false
-  xy: 595, 84
-  size: 47, 42
-  orig: 47, 42
-  offset: 0, 0
-  index: -1
-images/legs
-  rotate: false
-  xy: 316, 46
-  size: 128, 80
-  orig: 128, 80
-  offset: 0, 0
-  index: -1
-images/llp
-  rotate: false
-  xy: 595, 67
-  size: 26, 15
-  orig: 26, 15
-  offset: 0, 0
-  index: -1
-images/lrp
-  rotate: false
-  xy: 115, 17
-  size: 26, 16
-  orig: 26, 16
-  offset: 0, 0
-  index: -1
-images/pauldronleft
+images/hairback
   rotate: true
-  xy: 550, 2
-  size: 33, 29
-  orig: 33, 29
+  xy: 405, 216
+  size: 13, 26
+  orig: 13, 26
   offset: 0, 0
   index: -1
-images/pauldronright
-  rotate: false
-  xy: 550, 37
-  size: 37, 28
-  orig: 37, 28
+images/hairfront
+  rotate: true
+  xy: 405, 231
+  size: 23, 78
+  orig: 23, 78
   offset: 0, 0
   index: -1
-images/shadow
+images/hand
   rotate: false
-  xy: 2, 95
-  size: 312, 31
-  orig: 312, 31
+  xy: 396, 197
+  size: 22, 17
+  orig: 22, 17
   offset: 0, 0
   index: -1
-images/sword
+images/neck
+  rotate: true
+  xy: 485, 226
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+images/shadowback
   rotate: false
-  xy: 2, 65
-  size: 238, 28
-  orig: 238, 28
+  xy: 309, 145
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+images/shadowfront
+  rotate: false
+  xy: 157, 216
+  size: 246, 38
+  orig: 246, 38
+  offset: 0, 0
+  index: -1
+images/skull
+  rotate: false
+  xy: 2, 12
+  size: 111, 76
+  orig: 111, 76
+  offset: 0, 0
+  index: -1
+images/spine
+  rotate: true
+  xy: 115, 14
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+images/tail
+  rotate: true
+  xy: 377, 172
+  size: 42, 17
+  orig: 42, 17
   offset: 0, 0
   index: -1
