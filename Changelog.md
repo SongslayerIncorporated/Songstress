@@ -8,6 +8,9 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.3] - 2018-08-12
+### Compatibilty Update
+   
 ## [0.4.2] - 2018-07-19
 ### Added
  - New Images for: Forged Drums, Bongos!
