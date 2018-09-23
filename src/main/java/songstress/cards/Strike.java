@@ -9,6 +9,9 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import basemod.helpers.BaseModTags;
+import basemod.helpers.CardTags;
+
 public class Strike extends AbstractSongstressCard {
 
 	public static final String ID = "Strike";
@@ -25,6 +28,8 @@ public class Strike extends AbstractSongstressCard {
 	public Strike() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
 		baseDamage = ATTACK_DMG;
+
+		CardTags.addTags(this, BaseModTags.BASIC_STRIKE, BaseModTags.STRIKE);
 	}
 
 	@Override
@@ -46,6 +51,7 @@ public class Strike extends AbstractSongstressCard {
 				new DamageInfo(player, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
 	}
 
+	@Override
 	public boolean isStrike() {
 		return true;
 	}

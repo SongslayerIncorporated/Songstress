@@ -11,6 +11,9 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
+import basemod.helpers.BaseModTags;
+import basemod.helpers.CardTags;
+
 public class PowerChord extends AbstractSongstressCard {
 
 	public static final String ID = "PowerChord";
@@ -32,6 +35,7 @@ public class PowerChord extends AbstractSongstressCard {
 		baseMagicNumber = STRENGTH_GAIN;
 		magicNumber = baseMagicNumber;
 		isSong = true;
+		CardTags.addTags(this, BaseModTags.GREMLIN_MATCH);
 	}
 
 	@Override

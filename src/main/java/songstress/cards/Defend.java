@@ -7,6 +7,9 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import basemod.helpers.BaseModTags;
+import basemod.helpers.CardTags;
+
 public class Defend extends AbstractSongstressCard {
 
 	public static final String ID = "Defend";
@@ -23,6 +26,8 @@ public class Defend extends AbstractSongstressCard {
 	public Defend() {
 		super(ID, NAME, COST, DESCRIPTION, TYPE, RARITY, TARGET);
 		baseBlock = BASE_BLOCK;
+
+		CardTags.addTags(this, BaseModTags.BASIC_DEFEND);
 	}
 
 	@Override
@@ -43,6 +48,7 @@ public class Defend extends AbstractSongstressCard {
 		AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, block));
 	}
 
+	@Override
 	public boolean isDefend() {
 		return true;
 	}
