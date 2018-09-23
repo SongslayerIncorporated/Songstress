@@ -87,7 +87,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		logger.info("Initializing TheSongstress");
 		logger.info("Registering Color Cloud");
 		Color color = new Color(0x1E90FFFF);
-		BaseMod.addColor(ColorEnum.Cloud.toString(), color, color, color, color, color, color, color,
+		BaseMod.addColor(ColorEnum.Cloud, color, color, color, color, color, color, color,
 				"song/img/cards/512/bg_attack_cloud.png", "song/img/cards/512/bg_skill_cloud.png",
 				"song/img/cards/512/bg_power_cloud.png", "song/img/cards/512/card_cloud_orb2.png",
 				"song/img/cards/1024/bg_attack_cloud.png", "song/img/cards/1024/bg_skill_cloud.png",
@@ -102,9 +102,8 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		String button = "song/img/char/microphone.png";
 		String portrait = "song/img/char/portrait.jpg";
 
-		BaseMod.addCharacter(TheSongstress.class, TheSongstress.NAMES[0], TheSongstress.NAMES[0],
-				ColorEnum.Cloud.toString(), TheSongstress.NAMES[0], button, portrait,
-				PlayerClassEnum.TheSongstress.toString());
+		BaseMod.addCharacter(TheSongstress.class, TheSongstress.NAMES[0], TheSongstress.NAMES[0], ColorEnum.Cloud,
+				TheSongstress.NAMES[0], button, portrait, PlayerClassEnum.TheSongstress);
 	}
 
 	@Override
@@ -162,7 +161,7 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 		logger.info("Adding relics for the Songstress");
 
 		// STARTER
-		BaseMod.addRelicToCustomPool(new AngelicChords(), ColorEnum.Cloud.toString());
+		BaseMod.addRelicToCustomPool(new AngelicChords(), ColorEnum.Cloud);
 
 		// COMMON
 		BaseMod.addRelic(new Harpsichord(), RelicType.SHARED);
@@ -172,10 +171,10 @@ public class TheSongstressMod implements EditKeywordsSubscriber, EditCharactersS
 
 		// RARE
 		BaseMod.addRelic(new ForgedDrums(), RelicType.SHARED);
-		BaseMod.addRelicToCustomPool(new Metronome(), ColorEnum.Cloud.toString());
+		BaseMod.addRelicToCustomPool(new Metronome(), ColorEnum.Cloud);
 
 		// BOSS
-		BaseMod.addRelicToCustomPool(new HarmonicChords(), ColorEnum.Cloud.toString());
+		BaseMod.addRelicToCustomPool(new HarmonicChords(), ColorEnum.Cloud);
 		BaseMod.addRelic(new LootedLute(), RelicType.SHARED);
 
 		// SPECIAL
