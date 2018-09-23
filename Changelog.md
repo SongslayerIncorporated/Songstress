@@ -8,8 +8,11 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.4] - 2018-09-23
+### Compatibility Update
+
 ## [0.4.3] - 2018-08-12
-### Compatibilty Update
+### Compatibility Update
    
 ## [0.4.2] - 2018-07-19
 ### Added
