@@ -8,6 +8,15 @@ Dates in this Changelog are yyyy-mm-dd (Year-Month-Day)
 
 ## [Unreleased]
 
+## [0.4.5] - 2018-09-23
+### Added
+ - Strike and BasicStrike Tags to Strike
+ - Defend Tag to Defend
+ - Gremlin Match Tag to Power Chord
+
+### Fixed
+ - Wing Buffet could not be updated multiple times
+
 ## [0.4.4] - 2018-09-23
 ### Compatibility Update
 

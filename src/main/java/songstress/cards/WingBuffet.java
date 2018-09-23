@@ -44,6 +44,11 @@ public class WingBuffet extends AbstractSongstressCard {
 	}
 
 	@Override
+	public boolean canUpgrade() {
+		return true;
+	}
+
+	@Override
 	public AbstractCard makeCopy() {
 		return new WingBuffet(timesUpgraded);
 	}
